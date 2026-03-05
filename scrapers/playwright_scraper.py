@@ -44,19 +44,24 @@ class PlaywrightScraper:
                     page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                     page.wait_for_timeout(1500)
                 
+                # Detect URL pattern from config or page
+                url_pattern = '/product/' if '/product/' in self.category_url or '?q=' in self.category_url else '/p'
+                
                 # Extract product links from rendered page
-                product_links = page.evaluate("""
-                    () => {
+                product_links = page.evaluate(f"""
+                    (pattern) => {{
                         const links = new Set();
-                        document.querySelectorAll('a[href]').forEach(a => {
+                        document.querySelectorAll('a[href]').forEach(a => {{
                             const href = a.href;
-                            if (href.includes('/p') && (href.includes('arroz') || a.textContent.toLowerCase().includes('arroz'))) {
+                            const text = a.textContent.toLowerCase();
+                            if (href.includes(pattern) && 
+                                (text.includes('arroz') || href.toLowerCase().includes('arroz'))) {{
                                 links.add(href);
-                            }
-                        });
+                            }}
+                        }});
                         return Array.from(links);
-                    }
-                """)
+                    }}
+                """, url_pattern)
                 
                 logger.info(f"Found {len(product_links)} product links")
                 

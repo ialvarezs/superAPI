@@ -13,6 +13,7 @@ SUPERMARKETS = {
         'base_url': 'https://www.tiendainglesa.com.uy',
         'arroz_url': 'https://www.tiendainglesa.com.uy/Institucional/Buscar?categoria=arroz',
         'category': 'arroz',
+        'platform': 'custom',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
@@ -20,9 +21,10 @@ SUPERMARKETS = {
     'disco': {
         'name': 'Disco',
         'base_url': 'https://www.disco.com.uy',
-        'arroz_url': 'https://www.disco.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'arroz_url': 'https://www.disco.com.uy/?q=arroz',
         'category': 'arroz',
         'platform': 'vtex',
+        'product_url_pattern': '/product/',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
@@ -30,9 +32,10 @@ SUPERMARKETS = {
     'devoto': {
         'name': 'Devoto',
         'base_url': 'https://www.devoto.com.uy',
-        'arroz_url': 'https://www.devoto.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'arroz_url': 'https://www.devoto.com.uy/?q=arroz',
         'category': 'arroz',
         'platform': 'vtex',
+        'product_url_pattern': '/product/',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
@@ -43,6 +46,7 @@ SUPERMARKETS = {
         'arroz_url': 'https://www.tata.com.uy/almacen/arroz-harina-y-legumbres/arroz/',
         'category': 'arroz',
         'platform': 'vtex',
+        'product_url_pattern': '/p',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
@@ -50,9 +54,10 @@ SUPERMARKETS = {
     'geant': {
         'name': 'Geant',
         'base_url': 'https://www.geant.com.uy',
-        'arroz_url': 'https://www.geant.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'arroz_url': 'https://www.geant.com.uy/?q=arroz',
         'category': 'arroz',
         'platform': 'vtex',
+        'product_url_pattern': '/product/',
         'headers': {
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
