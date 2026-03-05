@@ -1,10 +1,11 @@
 """
-Enhanced Tienda Inglesa scraper for arroz category
+Enhanced Tienda Inglesa scraper for arroz category with EAN extraction
 """
 import requests
 from bs4 import BeautifulSoup
 import re
 import time
+import random
 from typing import List, Dict, Optional
 from logger import setup_logger
 
@@ -29,11 +30,12 @@ class TiendaInglesaScraper:
             'Upgrade-Insecure-Requests': '1'
         })
     
-    def scrape_category(self, max_pages: int = 20) -> List[Dict]:
-        """Scrape arroz category from Tienda Inglesa - from category page only"""
+    def scrape_category(self, max_pages: int = 20, max_products: int = 30) -> List[Dict]:
+        """Scrape arroz category from Tienda Inglesa - with product detail visits for EAN"""
         logger.info(f"Starting Tienda Inglesa scrape: {self.category_url}")
         
         products = []
+        product_urls = []
         
         try:
             response = self.session.get(self.category_url, timeout=30)
@@ -41,34 +43,66 @@ class TiendaInglesaScraper:
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Find product cards in category page
+            # Find product cards and extract URLs
             product_items = soup.find_all(['div', 'article'], class_=re.compile(r'product|item', re.I))
             
             logger.info(f"Found {len(product_items)} potential product items")
             
             for item in product_items:
-                product = self._parse_product_item(item)
-                if product:
-                    products.append(product)
-                    logger.debug(f"Parsed product: {product.get('name')}")
+                link = item.find('a', href=True)
+                if link:
+                    href = link.get('href')
+                    url = href if href.startswith('http') else self.base_url + href
+                    
+                    # Filter by arroz in link text
+                    if 'arroz' in link.get_text().lower() or 'arroz' in url.lower():
+                        if url not in product_urls:
+                            product_urls.append(url)
+            
+            logger.info(f"Found {len(product_urls)} arroz product URLs")
+            
+            # Visit product detail pages with human-like delays
+            for i, url in enumerate(product_urls[:max_products], 1):
+                try:
+                    # Random delay between 8-15 seconds (human-like)
+                    if i > 1:
+                        delay = random.randint(8, 15)
+                        logger.info(f"Waiting {delay}s before next request...")
+                        time.sleep(delay)
+                    
+                    logger.info(f"Fetching product {i}/{min(len(product_urls), max_products)}: {url[:80]}...")
+                    product = self._scrape_product_detail(url)
+                    
+                    if product:
+                        products.append(product)
+                        if product.get('ean'):
+                            logger.info(f"✓ Product with EAN: {product['name'][:50]} - {product['ean']}")
+                    
+                except Exception as e:
+                    logger.error(f"Error fetching product: {e}")
+                    # Long pause on error (might be getting blocked)
+                    time.sleep(30)
+                    continue
             
         except Exception as e:
             logger.error(f"Error scraping Tienda Inglesa: {e}")
         
         logger.info(f"Total Tienda Inglesa products scraped: {len(products)}")
+        logger.info(f"Products with EAN: {sum(1 for p in products if p.get('ean'))}")
         return products
     
     def _scrape_product_detail(self, url: str) -> Optional[Dict]:
-        """Scrape detailed product page"""
+        """Scrape detailed product page including EAN"""
         try:
             response = self.session.get(url, timeout=30)
             
             # Check if blocked
-            if 'blocked' in response.text.lower() or response.status_code == 403:
-                logger.warning(f"Blocked by website, skipping {url}")
+            if 'blocked' in response.text.lower() or 'sorry' in response.text.lower()[:200]:
+                logger.warning(f"⚠️ Might be blocked, skipping URL")
                 return None
             
-            response.raise_for_status()
+            if response.status_code != 200:
+                return None
             
             soup = BeautifulSoup(response.text, 'html.parser')
             html = response.text
@@ -85,9 +119,9 @@ class TiendaInglesaScraper:
                 return None
             
             # Exclude non-rice
-            exclude_terms = ['chocolate', 'leche', 'yogur', 'pollo', 'carne', 'galleta']
+            exclude_terms = ['chocolate', 'leche', 'yogur', 'pollo', 'carne', 'galleta', 'cereal']
             for term in exclude_terms:
-                if term in name.lower():
+                if term in name.lower() and 'arroz' not in name.lower():
                     return None
             
             # Extract price
@@ -97,28 +131,33 @@ class TiendaInglesaScraper:
                 price_text = price_elem.get_text(strip=True)
                 price_match = re.search(r'[\d\.]+', price_text.replace(',', ''))
                 if price_match:
-                    price = float(price_match.group())
+                    try:
+                        price = float(price_match.group())
+                    except:
+                        pass
             
-            # Extract EAN - search in HTML source
+            # Extract EAN - search for 13-digit patterns in HTML
             ean = None
             ean_patterns = [
-                r'(?:ean|codigo)["\s:=]+["\']?(\d{13})',
-                r'(\d{13})',  # 13-digit number
-                r'7730\d{9}',  # Uruguayan EAN pattern
+                r'(?:ean|codigo|barcode)["\s:=]+["\']?(\d{13})',  # With label
+                r'\b(773\d{10})\b',  # Uruguayan EAN pattern
+                r'<[^>]*>(\d{13})</[^>]*>',  # In HTML tags
             ]
             
             for pattern in ean_patterns:
-                match = re.search(pattern, html, re.I)
-                if match:
-                    candidate = match.group(1) if '(' in pattern else match.group(0)
-                    if len(candidate) == 13:
-                        ean = candidate
+                matches = re.findall(pattern, html, re.I)
+                for match in matches:
+                    if len(match) == 13 and match.startswith('77'):  # Validate
+                        ean = match
+                        logger.info(f"✓ Found EAN: {ean}")
                         break
+                if ean:
+                    break
             
             # Extract brand from name
             brand = None
             brand_patterns = [
-                r'\b(Saman|Blue\s*Patna|Arrozur|Carolina|Uncle\s*Bens?|Green\s*Chef|Aruba|Monte\s*Cudine)\b'
+                r'\b(TIENDA\s*INGLESA|Saman|Blue\s*Patna|Arrozur|Carolina|Uncle\s*Bens?|Green\s*Chef|Aruba|Monte\s*Cudine|SAMAN|TA-TA)\b'
             ]
             for pattern in brand_patterns:
                 match = re.search(pattern, name, re.I)
@@ -130,7 +169,8 @@ class TiendaInglesaScraper:
             image_url = None
             img_elem = soup.find('img', src=True, alt=re.compile(r'producto|product|arroz', re.I))
             if img_elem:
-                image_url = img_elem.get('src')
+                img_src = img_elem.get('src')
+                image_url = img_src if img_src.startswith('http') else self.base_url + img_src
             
             return {
                 'supermarket': self.supermarket,
@@ -138,6 +178,7 @@ class TiendaInglesaScraper:
                 'price': price,
                 'brand': brand,
                 'ean': ean,
+                'barcode': ean,
                 'category': 'arroz',
                 'url': url,
                 'image_url': image_url
