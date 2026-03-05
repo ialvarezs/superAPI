@@ -1,0 +1,362 @@
+{
+  "generated_at": "2026-03-05T00:00:48.160899",
+  "summary": {
+    "total_products": 98,
+    "total_matches": 64,
+    "supermarkets": [
+      "tienda_inglesa",
+      "disco",
+      "devoto",
+      "tata",
+      "geant"
+    ],
+    "products_by_store": {
+      "tienda_inglesa": 80,
+      "disco": 0,
+      "devoto": 0,
+      "tata": 18,
+      "geant": 0
+    }
+  },
+  "database_stats": {
+    "total_products": 98,
+    "products_by_store": {
+      "tata": 18,
+      "tienda_inglesa": 80
+    },
+    "total_matches": 11,
+    "average_prices": {
+      "tata": 98.94444444444444,
+      "tienda_inglesa": 41.0
+    },
+    "products_with_barcodes": 0
+  },
+  "top_matches": [
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": null,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": null,
+      "cheaper_store": null
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": null,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": null,
+      "cheaper_store": null
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Integral Saman 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 113,
+      "similarity": 1.0,
+      "price_diff": 112.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Integral Saman 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 113,
+      "similarity": 1.0,
+      "price_diff": 112.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Integral Saman 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 113,
+      "similarity": 1.0,
+      "price_diff": 112.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": null,
+      "product_2_name": "Arroz Integral Saman 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 113,
+      "similarity": 1.0,
+      "price_diff": null,
+      "cheaper_store": null
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": 50.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": null,
+      "product_2_name": "Arroz Blanco Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 51,
+      "similarity": 1.0,
+      "price_diff": null,
+      "cheaper_store": null
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 1.0,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": 54.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": null,
+      "product_2_name": "Arroz Parboiled Ta-Ta 1 Kg",
+      "product_2_store": "tata",
+      "product_2_price": 55,
+      "similarity": 1.0,
+      "price_diff": null,
+      "cheaper_store": null
+    }
+  ],
+  "best_deals": [
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz Green CHEF 1 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 249,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 1.0,
+      "savings": 248.0,
+      "savings_percent": 99.59839357429718
+    },
+    {
+      "product_name": "Arroz BLUE PATNA 2 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 154,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 2.0,
+      "savings": 152.0,
+      "savings_percent": 98.7012987012987
+    },
+    {
+      "product_name": "Arroz BLUE PATNA 2 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 154,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 2.0,
+      "savings": 152.0,
+      "savings_percent": 98.7012987012987
+    },
+    {
+      "product_name": "Arroz BLUE PATNA 2 Kg",
+      "expensive_store": "tata",
+      "expensive_price": 154,
+      "cheaper_store": "tienda_inglesa",
+      "cheaper_price": 2.0,
+      "savings": 152.0,
+      "savings_percent": 98.7012987012987
+    },
+    {
+      "product_name": "Arroz a la Española BLUE PATNA 200 g",
+      "expensive_store": "tienda_inglesa",
+      "expensive_price": 200.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 84,
+      "savings": 116.0,
+      "savings_percent": 57.99999999999999
+    }
+  ],
+  "price_statistics": {
+    "tienda_inglesa": {
+      "avg_price": 41.0,
+      "min_price": 1.0,
+      "max_price": 200.0,
+      "total_products_with_price": 60
+    },
+    "tata": {
+      "avg_price": 98.94444444444444,
+      "min_price": 44,
+      "max_price": 345,
+      "total_products_with_price": 18
+    }
+  }
+}
