@@ -149,7 +149,7 @@ class ReportGenerator:
         
         for store, count in report['summary']['products_by_store'].items():
             avg_price = report['price_statistics'].get(store, {}).get('avg_price', 0)
-            html += f"<tr><td class='store'>{store.replace('_', ' ').title()}</td><td>{count}</td><td class='price'>${avg_price:.2f}</td></tr>\n"
+            html += f"<tr><td class='store'>{store.replace('_', ' ').title()}</td><td>{count}</td><td class='price'>${avg_price if avg_price else 0:.2f}</td></tr>\n"
         
         html += """
         </table>
@@ -163,10 +163,10 @@ class ReportGenerator:
             html += f"""<tr>
                 <td>{deal['product_name']}</td>
                 <td class='store'>{deal['expensive_store'].replace('_', ' ').title()}</td>
-                <td>${deal['expensive_price']:.2f}</td>
+                <td>${deal['expensive_price'] if deal['expensive_price'] else 0:.2f}</td>
                 <td class='store'>{deal['cheaper_store'].replace('_', ' ').title()}</td>
-                <td class='price'>${deal['cheaper_price']:.2f}</td>
-                <td><span class='savings'>${deal['savings']:.2f} ({deal['savings_percent']:.1f}%)</span></td>
+                <td class='price'>${deal['cheaper_price'] if deal['cheaper_price'] else 0:.2f}</td>
+                <td><span class='savings'>${deal['savings'] if deal['savings'] else 0:.2f} ({deal['savings_percent'] if deal['savings_percent'] else 0:.1f}%)</span></td>
             </tr>\n"""
         
         html += """
@@ -178,13 +178,15 @@ class ReportGenerator:
 """
         
         for match in report['top_matches'][:15]:
+            p1_price = match.get('product_1_price') or 0
+            p2_price = match.get('product_2_price') or 0
             html += f"""<tr>
                 <td>{match['product_1_name']}</td>
                 <td class='store'>{match['product_1_store'].replace('_', ' ').title()}</td>
-                <td class='price'>${match.get('product_1_price', 0):.2f}</td>
+                <td class='price'>${p1_price:.2f}</td>
                 <td>{match['product_2_name']}</td>
                 <td class='store'>{match['product_2_store'].replace('_', ' ').title()}</td>
-                <td class='price'>${match.get('product_2_price', 0):.2f}</td>
+                <td class='price'>${p2_price:.2f}</td>
                 <td>{match['similarity']:.2%}</td>
             </tr>\n"""
         

@@ -36,20 +36,25 @@ class PlaywrightScraper:
                 logger.info(f"Loading category page...")
                 page.goto(self.category_url, wait_until='networkidle', timeout=60000)
                 
-                # Scroll to load lazy products
-                self._scroll_page(page)
+                # Wait for products to load
+                page.wait_for_timeout(3000)
                 
-                # Extract product links
+                # Scroll multiple times to load all products
+                for i in range(10):
+                    page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+                    page.wait_for_timeout(1500)
+                
+                # Extract product links from rendered page
                 product_links = page.evaluate("""
                     () => {
-                        const links = [];
-                        document.querySelectorAll('a[href*="/p"]').forEach(a => {
+                        const links = new Set();
+                        document.querySelectorAll('a[href]').forEach(a => {
                             const href = a.href;
-                            if (href.includes('/p') && !links.includes(href)) {
-                                links.push(href);
+                            if (href.includes('/p') && (href.includes('arroz') || a.textContent.toLowerCase().includes('arroz'))) {
+                                links.add(href);
                             }
                         });
-                        return links;
+                        return Array.from(links);
                     }
                 """)
                 
