@@ -9,6 +9,7 @@ from typing import Dict, List
 # Add parent directory to path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import time
 from config import SUPERMARKETS
 from database import ProductDatabase
 from scrapers.vtex_complete_scraper import VTEXCompleteScraper

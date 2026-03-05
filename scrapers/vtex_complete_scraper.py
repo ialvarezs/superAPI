@@ -180,45 +180,33 @@ class VTEXCompleteScraper:
         """Scrape by visiting category pages and product detail pages"""
         products = []
         
-        page = 1
-        while len(products) < max_products:
-            try:
-                url = f"{self.category_url}?page={page}"
-                logger.info(f"Fetching page {page}")
+        # First try base URL without pagination
+        try:
+            logger.info(f"Fetching category page (no pagination)")
+            response = self.session.get(self.category_url, timeout=30)
                 
-                response = self.session.get(url, timeout=30)
-                response.raise_for_status()
-                
-                # Extract product links
-                soup = BeautifulSoup(response.text, 'html.parser')
-                product_links = self._extract_product_links(soup)
-                
-                if not product_links:
-                    logger.info(f"No products on page {page}, stopping")
+            response.raise_for_status()
+            
+            # Extract product links
+            soup = BeautifulSoup(response.text, 'html.parser')
+            product_links = self._extract_product_links(soup)
+            
+            logger.info(f"Found {len(product_links)} product links")
+            
+            # Visit each product page (limit to avoid too many requests)
+            for i, link in enumerate(product_links[:50], 1):
+                if len(products) >= max_products:
                     break
                 
-                logger.info(f"Found {len(product_links)} product links on page {page}")
+                product = self._scrape_product_page(link)
+                if product:
+                    products.append(product)
+                    logger.info(f"Product {i}/{min(len(product_links), 50)}: {product.get('name', 'Unknown')}")
                 
-                # Visit each product page (limit to avoid too many requests)
-                for link in product_links[:20]:
-                    if len(products) >= max_products:
-                        break
-                    
-                    product = self._scrape_product_page(link)
-                    if product:
-                        products.append(product)
-                    
-                    time.sleep(1)  # Rate limit
+                time.sleep(1.5)  # Rate limit
                 
-                page += 1
-                time.sleep(2)
-                
-                if len(product_links) < 10:  # Last page likely
-                    break
-                    
-            except Exception as e:
-                logger.error(f"Error on page {page}: {e}")
-                break
+        except Exception as e:
+            logger.error(f"Error scraping pages: {e}")
         
         return products
     

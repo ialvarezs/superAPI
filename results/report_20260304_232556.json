@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-04T23:25:56.296361",
+  "summary": {
+    "total_products": 0,
+    "total_matches": 0,
+    "supermarkets": [
+      "tienda_inglesa",
+      "disco",
+      "devoto",
+      "tata",
+      "geant"
+    ],
+    "products_by_store": {
+      "tienda_inglesa": 0,
+      "disco": 0,
+      "devoto": 0,
+      "tata": 0,
+      "geant": 0
+    }
+  },
+  "database_stats": {
+    "total_products": 0,
+    "products_by_store": {},
+    "total_matches": 0,
+    "average_prices": {},
+    "products_with_barcodes": 0
+  },
+  "top_matches": [],
+  "best_deals": [],
+  "price_statistics": {}
+}

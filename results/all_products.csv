@@ -1,7 +1,1 @@
-id,supermarket,name,price,original_price,brand,barcode,category,image_url,product_url,description,scraped_at
-1,Disco,Dulce de leche COLONIAL 1 kg,169.0,"$
-169
-/ un.",,,lacteos,https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content,https://www.disco.com.uy/#,,2026-03-04 19:02:18
-2,Devoto,Dulce de leche COLONIAL 1 kg,169.0,"$
-169
-/ un.",,,lacteos,https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content,https://www.devoto.com.uy/#,,2026-03-04 19:02:39
+id,supermarket,name,price,original_price,brand,barcode,ean,gtin,sku,category,subcategory,image_url,product_url,description,unit,quantity,in_stock,scraped_at,updated_at
