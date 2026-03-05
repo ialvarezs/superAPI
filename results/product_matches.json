@@ -1,0 +1,53 @@
+[
+  {
+    "match_id": 1,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "id": 1,
+        "supermarket": "Disco",
+        "name": "Dulce de leche COLONIAL 1 kg",
+        "price": 169.0,
+        "original_price": "$\n169\n/ un.",
+        "brand": null,
+        "barcode": null,
+        "category": "lacteos",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content",
+        "product_url": "https://www.disco.com.uy/#",
+        "description": null,
+        "scraped_at": "2026-03-04 19:02:18"
+      },
+      {
+        "id": 2,
+        "supermarket": "Devoto",
+        "name": "Dulce de leche COLONIAL 1 kg",
+        "price": 169.0,
+        "original_price": "$\n169\n/ un.",
+        "brand": null,
+        "barcode": null,
+        "category": "lacteos",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content",
+        "product_url": "https://www.devoto.com.uy/#",
+        "description": null,
+        "scraped_at": "2026-03-04 19:02:39"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Disco",
+      "name": "Dulce de leche COLONIAL 1 kg",
+      "price": 169.0,
+      "barcode": null,
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Dulce de leche COLONIAL 1 kg",
+      "price": 169.0,
+      "barcode": null,
+      "url": null
+    },
+    "price_difference": 0.0,
+    "cheaper_store": "Devoto",
+    "price_difference_percentage": 0.0
+  }
+]

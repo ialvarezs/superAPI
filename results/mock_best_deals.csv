@@ -1,0 +1,5 @@
+product_name_1,product_name_2,store_1,store_2,price_1,price_2,savings,savings_percentage,cheaper_store,similarity_score
+Dulce Leche Serenisima 400gr,Dulce de Leche Artesanal La Serenísima 400g,Disco,Devoto,235.0,210.0,25.0,11.235955056179774,Devoto,1.0
+Dulce de Leche La Serenísima 400g,Dulce Leche Serenisima 400gr,Tienda Inglesa,Disco,220.0,235.0,15.0,6.593406593406594,Tienda Inglesa,1.0
+Leche Conaprole Entera 1L,LECHE CONAPROLE ENTERA 1000ML,Tienda Inglesa,Disco,95.0,89.0,6.0,6.521739130434782,Disco,1.0
+Yogur Natural Conaprole 1 Kg,Yogurt Conaprole Natural 1000g,Disco,Devoto,175.0,185.0,10.0,5.555555555555555,Disco,1.0

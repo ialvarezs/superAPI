@@ -1,0 +1,337 @@
+[
+  {
+    "match_id": 1,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Leche Conaprole Entera 1L",
+        "price": 95.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole",
+        "image_url": "https://example.com/conaprole-1l.jpg",
+        "url": "https://tiendainglesa.com/product/1"
+      },
+      {
+        "supermarket": "Disco",
+        "name": "LECHE CONAPROLE ENTERA 1000ML",
+        "price": 89.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Leche Conaprole Entera 1L",
+      "price": 95.0,
+      "barcode": "7730894000123",
+      "url": "https://tiendainglesa.com/product/1"
+    },
+    "product_2": {
+      "supermarket": "Disco",
+      "name": "LECHE CONAPROLE ENTERA 1000ML",
+      "price": 89.0,
+      "barcode": "7730894000123",
+      "url": null
+    },
+    "price_difference": 6.0,
+    "cheaper_store": "Disco",
+    "price_difference_percentage": 6.315789473684211
+  },
+  {
+    "match_id": 2,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Yogurt Conaprole Natural 1kg",
+        "price": 180.0,
+        "barcode": "7730894000456",
+        "brand": "Conaprole"
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Yogur Natural Conaprole 1 Kg",
+        "price": 175.0,
+        "barcode": "7730894000456",
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Yogurt Conaprole Natural 1kg",
+      "price": 180.0,
+      "barcode": "7730894000456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Disco",
+      "name": "Yogur Natural Conaprole 1 Kg",
+      "price": 175.0,
+      "barcode": "7730894000456",
+      "url": null
+    },
+    "price_difference": 5.0,
+    "cheaper_store": "Disco",
+    "price_difference_percentage": 2.7777777777777777
+  },
+  {
+    "match_id": 3,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Dulce de Leche La Serenísima 400g",
+        "price": 220.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Dulce Leche Serenisima 400gr",
+        "price": 235.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Dulce de Leche La Serenísima 400g",
+      "price": 220.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Disco",
+      "name": "Dulce Leche Serenisima 400gr",
+      "price": 235.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "price_difference": 15.0,
+    "cheaper_store": "Tienda Inglesa",
+    "price_difference_percentage": 6.382978723404255
+  },
+  {
+    "match_id": 4,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Leche Conaprole Entera 1L",
+        "price": 95.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole",
+        "image_url": "https://example.com/conaprole-1l.jpg",
+        "url": "https://tiendainglesa.com/product/1"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Leche Conaprole Entera Litro",
+        "price": 92.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Leche Conaprole Entera 1L",
+      "price": 95.0,
+      "barcode": "7730894000123",
+      "url": "https://tiendainglesa.com/product/1"
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Leche Conaprole Entera Litro",
+      "price": 92.0,
+      "barcode": "7730894000123",
+      "url": null
+    },
+    "price_difference": 3.0,
+    "cheaper_store": "Devoto",
+    "price_difference_percentage": 3.1578947368421053
+  },
+  {
+    "match_id": 5,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Yogurt Conaprole Natural 1kg",
+        "price": 180.0,
+        "barcode": "7730894000456",
+        "brand": "Conaprole"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Yogurt Conaprole Natural 1000g",
+        "price": 185.0,
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Yogurt Conaprole Natural 1kg",
+      "price": 180.0,
+      "barcode": "7730894000456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Yogurt Conaprole Natural 1000g",
+      "price": 185.0,
+      "barcode": null,
+      "url": null
+    },
+    "price_difference": 5.0,
+    "cheaper_store": "Tienda Inglesa",
+    "price_difference_percentage": 2.7027027027027026
+  },
+  {
+    "match_id": 6,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Tienda Inglesa",
+        "name": "Dulce de Leche La Serenísima 400g",
+        "price": 220.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Dulce de Leche Artesanal La Serenísima 400g",
+        "price": 210.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Dulce de Leche La Serenísima 400g",
+      "price": 220.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Dulce de Leche Artesanal La Serenísima 400g",
+      "price": 210.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "price_difference": 10.0,
+    "cheaper_store": "Devoto",
+    "price_difference_percentage": 4.545454545454546
+  },
+  {
+    "match_id": 7,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Disco",
+        "name": "LECHE CONAPROLE ENTERA 1000ML",
+        "price": 89.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Leche Conaprole Entera Litro",
+        "price": 92.0,
+        "barcode": "7730894000123",
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Disco",
+      "name": "LECHE CONAPROLE ENTERA 1000ML",
+      "price": 89.0,
+      "barcode": "7730894000123",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Leche Conaprole Entera Litro",
+      "price": 92.0,
+      "barcode": "7730894000123",
+      "url": null
+    },
+    "price_difference": 3.0,
+    "cheaper_store": "Disco",
+    "price_difference_percentage": 3.260869565217391
+  },
+  {
+    "match_id": 8,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Disco",
+        "name": "Yogur Natural Conaprole 1 Kg",
+        "price": 175.0,
+        "barcode": "7730894000456",
+        "brand": "Conaprole"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Yogurt Conaprole Natural 1000g",
+        "price": 185.0,
+        "brand": "Conaprole"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Disco",
+      "name": "Yogur Natural Conaprole 1 Kg",
+      "price": 175.0,
+      "barcode": "7730894000456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Yogurt Conaprole Natural 1000g",
+      "price": 185.0,
+      "barcode": null,
+      "url": null
+    },
+    "price_difference": 10.0,
+    "cheaper_store": "Disco",
+    "price_difference_percentage": 5.405405405405405
+  },
+  {
+    "match_id": 9,
+    "similarity_score": 1.0,
+    "products": [
+      {
+        "supermarket": "Disco",
+        "name": "Dulce Leche Serenisima 400gr",
+        "price": 235.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      },
+      {
+        "supermarket": "Devoto",
+        "name": "Dulce de Leche Artesanal La Serenísima 400g",
+        "price": 210.0,
+        "barcode": "7790040123456",
+        "brand": "La Serenísima"
+      }
+    ],
+    "product_1": {
+      "supermarket": "Disco",
+      "name": "Dulce Leche Serenisima 400gr",
+      "price": 235.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "product_2": {
+      "supermarket": "Devoto",
+      "name": "Dulce de Leche Artesanal La Serenísima 400g",
+      "price": 210.0,
+      "barcode": "7790040123456",
+      "url": null
+    },
+    "price_difference": 25.0,
+    "cheaper_store": "Devoto",
+    "price_difference_percentage": 10.638297872340425
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "match_type": "name_similarity",
+    "tienda_product": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Arroz BLUE PATNA 1 Kg",
+      "price": 56.0,
+      "image_url": "https://prod-resize.tiendainglesa.com.uy/images/small/P000208-1.jpg?20191127105540,Arroz-BLUE-PATNA-1-Kg-en-Tienda-Inglesa",
+      "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-blue-patna-1-kg.producto?23085,,42",
+      "barcode": "7730114000117"
+    },
+    "other_products": [
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      }
+    ],
+    "similarity_scores": [
+      0.7692307692307693,
+      0.7692307692307693,
+      0.7692307692307693
+    ]
+  },
+  {
+    "match_type": "name_similarity",
+    "tienda_product": {
+      "supermarket": "Tienda Inglesa",
+      "name": "Arroz Parboiled SAMAN 1 Kg",
+      "price": 60.0,
+      "image_url": "https://prod-resize.tiendainglesa.com.uy/images/small/P000408-1.jpg?20190404160330,Arroz-Parboiled-SAMAN-1-Kg-en-Tienda-Inglesa",
+      "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-parboiled-saman-1-kg.producto?86,,42",
+      "barcode": "7730115030106"
+    },
+    "other_products": [
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      },
+      {
+        "supermarket": "Disco",
+        "name": "Arroz parboiled BLUE PATNA 5 kg",
+        "price": 309.0,
+        "url": "https://www.disco.com.uy/product/arroz-parboiled-blue-patna-5-kg/379159",
+        "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/299e496a-ee31-4bef-bb4f-4696b503f26d/content",
+        "barcode": null
+      }
+    ],
+    "similarity_scores": [
+      0.7719298245614035,
+      0.7719298245614035,
+      0.7719298245614035
+    ]
+  }
+]

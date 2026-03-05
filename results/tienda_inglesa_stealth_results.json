@@ -1,0 +1,7 @@
+{
+  "success": false,
+  "method_used": null,
+  "lacteos_urls": [],
+  "products": [],
+  "error": "Both requests and selenium failed"
+}

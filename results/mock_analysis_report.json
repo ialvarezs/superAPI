@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-03-04T16:03:26.866869",
+  "database_stats": {
+    "total_products": 14,
+    "products_by_store": {
+      "Devoto": 5,
+      "Disco": 5,
+      "Tienda Inglesa": 4
+    },
+    "total_matches": 10,
+    "average_prices": {
+      "Devoto": 155.2,
+      "Disco": 162.6,
+      "Tienda Inglesa": 165.0
+    },
+    "products_with_barcodes": 8
+  },
+  "store_comparison": {
+    "Disco": {
+      "total_products": 5,
+      "products_with_prices": 5,
+      "average_price": 162.6,
+      "median_price": 169.0,
+      "min_price": 89.0,
+      "max_price": 235.0,
+      "products_with_barcodes": 3
+    },
+    "Devoto": {
+      "total_products": 5,
+      "products_with_prices": 5,
+      "average_price": 155.2,
+      "median_price": 169.0,
+      "min_price": 92.0,
+      "max_price": 210.0,
+      "products_with_barcodes": 2
+    },
+    "Tienda Inglesa": {
+      "total_products": 4,
+      "products_with_prices": 4,
+      "average_price": 165.0,
+      "median_price": 172.5,
+      "min_price": 95.0,
+      "max_price": 220.0,
+      "products_with_barcodes": 3
+    }
+  },
+  "brand_analysis": {
+    "Disco": {
+      "top_brands": {
+        "Dulce": 2,
+        "Leche": 1,
+        "Yogur": 1,
+        "Queso": 1
+      },
+      "unique_brands": 4
+    },
+    "Devoto": {
+      "top_brands": {
+        "Dulce": 2,
+        "Leche": 1,
+        "Yogurt": 1,
+        "Manteca": 1
+      },
+      "unique_brands": 4
+    },
+    "Tienda Inglesa": {
+      "top_brands": {
+        "Leche": 1,
+        "Yogurt": 1,
+        "Dulce": 1,
+        "Queso": 1
+      },
+      "unique_brands": 4
+    }
+  },
+  "best_deals": [
+    {
+      "product_name_1": "Dulce Leche Serenisima 400gr",
+      "product_name_2": "Dulce de Leche Artesanal La Serenísima 400g",
+      "store_1": "Disco",
+      "store_2": "Devoto",
+      "price_1": 235.0,
+      "price_2": 210.0,
+      "savings": 25.0,
+      "savings_percentage": 11.235955056179774,
+      "cheaper_store": "Devoto",
+      "similarity_score": 1.0
+    },
+    {
+      "product_name_1": "Dulce de Leche La Serenísima 400g",
+      "product_name_2": "Dulce Leche Serenisima 400gr",
+      "store_1": "Tienda Inglesa",
+      "store_2": "Disco",
+      "price_1": 220.0,
+      "price_2": 235.0,
+      "savings": 15.0,
+      "savings_percentage": 6.593406593406594,
+      "cheaper_store": "Tienda Inglesa",
+      "similarity_score": 1.0
+    },
+    {
+      "product_name_1": "Leche Conaprole Entera 1L",
+      "product_name_2": "LECHE CONAPROLE ENTERA 1000ML",
+      "store_1": "Tienda Inglesa",
+      "store_2": "Disco",
+      "price_1": 95.0,
+      "price_2": 89.0,
+      "savings": 6.0,
+      "savings_percentage": 6.521739130434782,
+      "cheaper_store": "Disco",
+      "similarity_score": 1.0
+    },
+    {
+      "product_name_1": "Yogur Natural Conaprole 1 Kg",
+      "product_name_2": "Yogurt Conaprole Natural 1000g",
+      "store_1": "Disco",
+      "store_2": "Devoto",
+      "price_1": 175.0,
+      "price_2": 185.0,
+      "savings": 10.0,
+      "savings_percentage": 5.555555555555555,
+      "cheaper_store": "Disco",
+      "similarity_score": 1.0
+    }
+  ],
+  "price_analysis": {
+    "total_matches": 10,
+    "average_price_difference_pct": 4.663791983892679,
+    "max_price_difference_pct": 11.235955056179774,
+    "matches_with_significant_difference": 1
+  }
+}

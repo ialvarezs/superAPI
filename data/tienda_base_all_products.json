@@ -1,0 +1,66 @@
+{
+  "tienda_inglesa": [
+    {
+      "supermarket": "Tienda Inglesa",
+      "name": "Queso Muzzarella CONAPROLE (Kg)",
+      "price": 540.0,
+      "original_price": "$ 540",
+      "brand": "Conaprole",
+      "barcode": null,
+      "image_url": "https://prod-resize.tiendainglesa.com.uy/images/small/P097368-2.jpg?20220214120101,Queso-Muzzarella-CONAPROLE-Kg-en-Tienda-Inglesa",
+      "url": "https://www.tiendainglesa.com.uy/supermercado/queso-muzzarella-conaprole-kg.producto?1097368,,42&campaign=page_not_found",
+      "description": null,
+      "category": "Category 1"
+    },
+    {
+      "supermarket": "Tienda Inglesa",
+      "name": "Leche UHT Descremada TIENDA INGLESA Larga Vida 1 L",
+      "price": 74.0,
+      "original_price": "$ 74",
+      "brand": "Leche",
+      "barcode": null,
+      "image_url": "https://prod-resize.tiendainglesa.com.uy/images/small/P021685-1.jpg?20230315144028,Leche-UHT-Descremada-TIENDA-INGLESA-Larga-Vida-1-L-en-Tienda-Inglesa",
+      "url": "https://www.tiendainglesa.com.uy/supermercado/leche-uht-descremada-tienda-inglesa-larga-vida-1-l.producto?1944,,42&campaign=page_not_found",
+      "description": null,
+      "category": "Category 1"
+    },
+    {
+      "supermarket": "Tienda Inglesa",
+      "name": "Manteca Extra sin Sal TIENDA INGLESA 200 gr",
+      "price": 99.0,
+      "original_price": "$ 99",
+      "brand": "Manteca",
+      "barcode": null,
+      "image_url": "https://prod-resize.tiendainglesa.com.uy/Ico/ico_sin_gluten_m.png",
+      "url": "https://www.tiendainglesa.com.uy/supermercado/manteca-extra-sin-sal-tienda-inglesa-200-gr.producto?7795,,42&campaign=page_not_found",
+      "description": null,
+      "category": "Category 1"
+    }
+  ],
+  "disco": [
+    {
+      "supermarket": "Disco",
+      "name": "Dulce de leche COLONIAL 1 kg",
+      "price": 169.0,
+      "original_price": "$\n169\n/ un.",
+      "brand": null,
+      "barcode": null,
+      "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content",
+      "url": "https://www.disco.com.uy/#",
+      "description": null
+    }
+  ],
+  "devoto": [
+    {
+      "supermarket": "Devoto",
+      "name": "Dulce de leche COLONIAL 1 kg",
+      "price": 169.0,
+      "original_price": "$\n169\n/ un.",
+      "brand": null,
+      "barcode": null,
+      "image_url": "https://gdu-multimedia.azurewebsites.net/api/gdu/multimedia/cd6a809c-f4ce-4ee2-8dba-bc1c14ea60ff/content",
+      "url": "https://www.devoto.com.uy/#",
+      "description": null
+    }
+  ]
+}
