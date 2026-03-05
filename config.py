@@ -21,7 +21,7 @@ SUPERMARKETS = {
     'disco': {
         'name': 'Disco',
         'base_url': 'https://www.disco.com.uy',
-        'arroz_url': 'https://www.disco.com.uy/?q=arroz',
+        'arroz_url': 'https://www.disco.com.uy/products/category/arroz/101013',
         'category': 'arroz',
         'platform': 'vtex',
         'product_url_pattern': '/product/',
@@ -32,7 +32,7 @@ SUPERMARKETS = {
     'devoto': {
         'name': 'Devoto',
         'base_url': 'https://www.devoto.com.uy',
-        'arroz_url': 'https://www.devoto.com.uy/?q=arroz',
+        'arroz_url': 'https://www.devoto.com.uy/products/category/arroz/101013',
         'category': 'arroz',
         'platform': 'vtex',
         'product_url_pattern': '/product/',
@@ -54,7 +54,7 @@ SUPERMARKETS = {
     'geant': {
         'name': 'Geant',
         'base_url': 'https://www.geant.com.uy',
-        'arroz_url': 'https://www.geant.com.uy/?q=arroz',
+        'arroz_url': 'https://www.geant.com.uy/products/category/arroz/101013',
         'category': 'arroz',
         'platform': 'vtex',
         'product_url_pattern': '/product/',

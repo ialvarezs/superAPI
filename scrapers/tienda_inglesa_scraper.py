@@ -30,11 +30,10 @@ class TiendaInglesaScraper:
         })
     
     def scrape_category(self, max_pages: int = 20) -> List[Dict]:
-        """Scrape arroz category from Tienda Inglesa"""
+        """Scrape arroz category from Tienda Inglesa - from category page only"""
         logger.info(f"Starting Tienda Inglesa scrape: {self.category_url}")
         
         products = []
-        product_urls = []
         
         try:
             response = self.session.get(self.category_url, timeout=30)
@@ -42,33 +41,16 @@ class TiendaInglesaScraper:
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # First pass: collect product URLs
-            for item in soup.find_all(['div', 'article'], class_=re.compile(r'product|item', re.I)):
-                link_elem = item.find('a', href=True)
-                if link_elem:
-                    href = link_elem.get('href')
-                    url = href if href.startswith('http') else self.base_url + href
-                    
-                    # Quick filter by name in link
-                    text = link_elem.get_text().lower()
-                    if 'arroz' in text or 'arroz' in href.lower():
-                        if url not in product_urls:
-                            product_urls.append(url)
+            # Find product cards in category page
+            product_items = soup.find_all(['div', 'article'], class_=re.compile(r'product|item', re.I))
             
-            logger.info(f"Found {len(product_urls)} potential arroz product URLs")
+            logger.info(f"Found {len(product_items)} potential product items")
             
-            # Second pass: visit each product page for detailed data
-            for i, url in enumerate(product_urls[:100], 1):
-                try:
-                    logger.info(f"Fetching product {i}/{min(len(product_urls), 100)}")
-                    product = self._scrape_product_detail(url)
-                    if product:
-                        products.append(product)
-                    time.sleep(3)  # Longer delay to avoid blocking
-                except Exception as e:
-                    logger.error(f"Error fetching product {url}: {e}")
-                    time.sleep(5)  # Extra delay on error
-                    continue
+            for item in product_items:
+                product = self._parse_product_item(item)
+                if product:
+                    products.append(product)
+                    logger.debug(f"Parsed product: {product.get('name')}")
             
         except Exception as e:
             logger.error(f"Error scraping Tienda Inglesa: {e}")

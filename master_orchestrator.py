@@ -89,11 +89,11 @@ class MasterOrchestrator:
                         category_url=config['arroz_url']
                     )
                 else:
-                    # Disco, Devoto, Geant - use search
-                    scraper = SearchBasedScraper(
+                    # Disco, Devoto, Geant - use category pages with Playwright
+                    scraper = PlaywrightScraper(
                         supermarket=store_key,
                         base_url=config['base_url'],
-                        search_term='arroz'
+                        category_url=config['arroz_url']
                     )
                 
                 products = scraper.scrape_category()

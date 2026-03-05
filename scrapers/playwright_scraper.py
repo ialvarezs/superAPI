@@ -37,15 +37,16 @@ class PlaywrightScraper:
                 page.goto(self.category_url, wait_until='networkidle', timeout=60000)
                 
                 # Wait for products to load
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(5000)
                 
                 # Scroll multiple times to load all products
-                for i in range(10):
+                logger.info("Scrolling to load all products...")
+                for i in range(12):
                     page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                    page.wait_for_timeout(1500)
+                    page.wait_for_timeout(2000)
                 
                 # Detect URL pattern from config or page
-                url_pattern = '/product/' if '/product/' in self.category_url or '?q=' in self.category_url else '/p'
+                url_pattern = '/product/' if '/product/' in self.category_url or '/products/' in self.category_url else '/p'
                 
                 # Extract product links from rendered page
                 product_links = page.evaluate(f"""
@@ -53,9 +54,7 @@ class PlaywrightScraper:
                         const links = new Set();
                         document.querySelectorAll('a[href]').forEach(a => {{
                             const href = a.href;
-                            const text = a.textContent.toLowerCase();
-                            if (href.includes(pattern) && 
-                                (text.includes('arroz') || href.toLowerCase().includes('arroz'))) {{
+                            if (href.includes(pattern)) {{
                                 links.add(href);
                             }}
                         }});
