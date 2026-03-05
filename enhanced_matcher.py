@@ -11,7 +11,7 @@ logger = setup_logger('enhanced_matcher')
 class EnhancedProductMatcher:
     """Match products across supermarkets using multiple strategies"""
     
-    def __init__(self, similarity_threshold: float = 0.75):
+    def __init__(self, similarity_threshold: float = 0.60):
         self.similarity_threshold = similarity_threshold
     
     def match_products(self, products_by_store: Dict[str, List[Dict]]) -> List[Dict]:

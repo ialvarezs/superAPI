@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-03-04T23:50:42.696847",
+  "summary": {
+    "total_products": 22,
+    "total_matches": 0,
+    "supermarkets": [
+      "tienda_inglesa",
+      "disco",
+      "devoto",
+      "tata",
+      "geant"
+    ],
+    "products_by_store": {
+      "tienda_inglesa": 4,
+      "disco": 0,
+      "devoto": 0,
+      "tata": 18,
+      "geant": 0
+    }
+  },
+  "database_stats": {
+    "total_products": 22,
+    "products_by_store": {
+      "tata": 18,
+      "tienda_inglesa": 4
+    },
+    "total_matches": 0,
+    "average_prices": {
+      "tata": 98.94444444444444,
+      "tienda_inglesa": 160.0
+    },
+    "products_with_barcodes": 0
+  },
+  "top_matches": [],
+  "best_deals": [],
+  "price_statistics": {
+    "tienda_inglesa": {
+      "avg_price": 160.0,
+      "min_price": 160.0,
+      "max_price": 160.0,
+      "total_products_with_price": 3
+    },
+    "tata": {
+      "avg_price": 98.94444444444444,
+      "min_price": 44,
+      "max_price": 345,
+      "total_products_with_price": 18
+    }
+  }
+}

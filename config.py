@@ -11,7 +11,7 @@ SUPERMARKETS = {
     'tienda_inglesa': {
         'name': 'Tienda Inglesa',
         'base_url': 'https://www.tiendainglesa.com.uy',
-        'arroz_url': 'https://www.tiendainglesa.com.uy/Institucional/Buscar?categoria=arroz',
+        'arroz_url': 'https://www.tiendainglesa.com.uy/supermercado/categoria/almacen/arroz-legumbres/78/84',
         'category': 'arroz',
         'platform': 'custom',
         'headers': {

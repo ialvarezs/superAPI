@@ -90,6 +90,16 @@ class TiendaInglesaScraper:
             if not name or len(name) < 3:
                 return None
             
+            # FILTER: Must contain "arroz"
+            if 'arroz' not in name.lower():
+                return None
+            
+            # Exclude non-rice products (but keep "arroz integral")
+            exclude_terms = ['chocolate', 'leche', 'yogur', 'pollo', 'carne', 'galleta']
+            for term in exclude_terms:
+                if term in name.lower():
+                    return None
+            
             # Find price
             price = None
             price_elem = item.find(['span', 'div', 'p'], class_=re.compile(r'price|precio|valor', re.I))
