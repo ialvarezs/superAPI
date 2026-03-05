@@ -20,6 +20,14 @@ class TiendaInglesaScraper:
         self.headers = headers
         self.session = requests.Session()
         self.session.headers.update(headers)
+        # Additional headers to avoid blocking
+        self.session.headers.update({
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+            'Accept-Language': 'es-UY,es;q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1'
+        })
     
     def scrape_category(self, max_pages: int = 20) -> List[Dict]:
         """Scrape arroz category from Tienda Inglesa"""
@@ -56,9 +64,10 @@ class TiendaInglesaScraper:
                     product = self._scrape_product_detail(url)
                     if product:
                         products.append(product)
-                    time.sleep(1.5)  # Rate limiting
+                    time.sleep(3)  # Longer delay to avoid blocking
                 except Exception as e:
                     logger.error(f"Error fetching product {url}: {e}")
+                    time.sleep(5)  # Extra delay on error
                     continue
             
         except Exception as e:
@@ -71,6 +80,12 @@ class TiendaInglesaScraper:
         """Scrape detailed product page"""
         try:
             response = self.session.get(url, timeout=30)
+            
+            # Check if blocked
+            if 'blocked' in response.text.lower() or response.status_code == 403:
+                logger.warning(f"Blocked by website, skipping {url}")
+                return None
+            
             response.raise_for_status()
             
             soup = BeautifulSoup(response.text, 'html.parser')
