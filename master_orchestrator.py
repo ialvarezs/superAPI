@@ -13,6 +13,7 @@ import time
 from config import SUPERMARKETS
 from database import ProductDatabase
 from scrapers.playwright_scraper import PlaywrightScraper
+from scrapers.search_scraper import SearchBasedScraper
 from scrapers.tienda_inglesa_scraper import TiendaInglesaScraper
 from enhanced_matcher import EnhancedProductMatcher
 from report_generator import ReportGenerator
@@ -80,12 +81,19 @@ class MasterOrchestrator:
                         category_url=config['arroz_url'],
                         headers=config['headers']
                     )
-                else:
-                    # VTEX stores - use Playwright for JS rendering
+                elif store_key == 'tata':
+                    # Tata uses proper category URL
                     scraper = PlaywrightScraper(
                         supermarket=store_key,
                         base_url=config['base_url'],
                         category_url=config['arroz_url']
+                    )
+                else:
+                    # Disco, Devoto, Geant - use search
+                    scraper = SearchBasedScraper(
+                        supermarket=store_key,
+                        base_url=config['base_url'],
+                        search_term='arroz'
                     )
                 
                 products = scraper.scrape_category()
