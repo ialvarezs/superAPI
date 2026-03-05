@@ -12,7 +12,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import time
 from config import SUPERMARKETS
 from database import ProductDatabase
-from scrapers.vtex_complete_scraper import VTEXCompleteScraper
+from scrapers.playwright_scraper import PlaywrightScraper
 from scrapers.tienda_inglesa_scraper import TiendaInglesaScraper
 from enhanced_matcher import EnhancedProductMatcher
 from report_generator import ReportGenerator
@@ -81,12 +81,11 @@ class MasterOrchestrator:
                         headers=config['headers']
                     )
                 else:
-                    # VTEX stores
-                    scraper = VTEXCompleteScraper(
+                    # VTEX stores - use Playwright for JS rendering
+                    scraper = PlaywrightScraper(
                         supermarket=store_key,
                         base_url=config['base_url'],
-                        category_url=config['arroz_url'],
-                        headers=config['headers']
+                        category_url=config['arroz_url']
                     )
                 
                 products = scraper.scrape_category()
