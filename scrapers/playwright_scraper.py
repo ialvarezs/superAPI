@@ -106,7 +106,10 @@ class PlaywrightScraper:
             if page_data:
                 product_data = page_data.get('result', {}).get('serverData', {}).get('product', {})
                 if product_data:
-                    return self._parse_product_data(product_data, url)
+                    product = self._parse_product_data(product_data, url)
+                    # Filter: ensure it's actually arroz
+                    if product and self._is_arroz_product(product):
+                        return product
             
             # Fallback: parse from DOM
             product = page.evaluate("""
@@ -121,7 +124,7 @@ class PlaywrightScraper:
                 }
             """)
             
-            if product.get('name'):
+            if product.get('name') and self._is_arroz_product(product):
                 return {
                     'supermarket': self.supermarket,
                     'name': product['name'],
@@ -136,6 +139,25 @@ class PlaywrightScraper:
             logger.debug(f"Error scraping product page: {e}")
         
         return None
+    
+    def _is_arroz_product(self, product: Dict) -> bool:
+        """Check if product is actually arroz (rice)"""
+        name = (product.get('name') or '').lower()
+        description = (product.get('description') or '').lower()
+        
+        # Must contain arroz
+        if 'arroz' not in name and 'arroz' not in description:
+            return False
+        
+        # Exclude non-rice products
+        exclude_terms = ['chocolate', 'leche', 'yogur', 'pollo', 'carne', 'notebook', 
+                        'celular', 'cable', 'electronico', 'mueble', 'ropa']
+        
+        for term in exclude_terms:
+            if term in name:
+                return False
+        
+        return True
     
     def _parse_product_data(self, data: Dict, url: str) -> Optional[Dict]:
         """Parse product from pageData JSON"""
