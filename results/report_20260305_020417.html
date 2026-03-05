@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Supermarket Comparison Report - 20260305_020417</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+        .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; border-bottom: 3px solid #4CAF50; padding-bottom: 10px; }
+        h2 { color: #555; margin-top: 30px; }
+        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin: 20px 0; }
+        .stat-card { background: #e8f5e9; padding: 15px; border-radius: 8px; text-align: center; }
+        .stat-card h3 { margin: 0; color: #2e7d32; font-size: 2em; }
+        .stat-card p { margin: 5px 0 0 0; color: #666; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background: #4CAF50; color: white; padding: 12px; text-align: left; }
+        td { padding: 10px; border-bottom: 1px solid #ddd; }
+        tr:hover { background: #f5f5f5; }
+        .price { font-weight: bold; color: #2e7d32; }
+        .store { color: #1976d2; font-weight: 500; }
+        .savings { background: #ffeb3b; padding: 2px 8px; border-radius: 3px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🛒 Supermarket Price Comparison Report</h1>
+        <p><strong>Generated:</strong> 2026-03-05T02:04:17.988907</p>
+        
+        <h2>📊 Summary</h2>
+        <div class="summary">
+            <div class="stat-card">
+                <h3>222</h3>
+                <p>Total Products</p>
+            </div>
+            <div class="stat-card">
+                <h3>362</h3>
+                <p>Product Matches</p>
+            </div>
+            <div class="stat-card">
+                <h3>5</h3>
+                <p>Supermarkets</p>
+            </div>
+        </div>
+        
+        <h2>🏪 Products by Store</h2>
+        <table>
+            <tr><th>Supermarket</th><th>Products</th><th>Avg Price</th></tr>
+<tr><td class='store'>Tienda Inglesa</td><td>20</td><td class='price'>$100.40</td></tr>
+<tr><td class='store'>Disco</td><td>63</td><td class='price'>$132.75</td></tr>
+<tr><td class='store'>Devoto</td><td>58</td><td class='price'>$136.81</td></tr>
+<tr><td class='store'>Tata</td><td>18</td><td class='price'>$98.94</td></tr>
+<tr><td class='store'>Geant</td><td>63</td><td class='price'>$127.44</td></tr>
+
+        </table>
+        
+        <h2>💰 Best Deals (Top Savings)</h2>
+        <table>
+            <tr><th>Product</th><th>Expensive</th><th>Price</th><th>Cheaper</th><th>Price</th><th>Savings</th></tr>
+<tr>
+                <td>Arroz arborio RISO INVERNI 1 kg</td>
+                <td class='store'>Disco</td>
+                <td>$434.00</td>
+                <td class='store'>Tata</td>
+                <td class='price'>$84.00</td>
+                <td><span class='savings'>$350.00 (80.6%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz arborio RISO INVERNI 1 kg</td>
+                <td class='store'>Devoto</td>
+                <td>$434.00</td>
+                <td class='store'>Tata</td>
+                <td class='price'>$84.00</td>
+                <td><span class='savings'>$350.00 (80.6%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz Blanco SAMAN 500 g</td>
+                <td class='store'>Tata</td>
+                <td>$345.00</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$300.00 (87.0%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz Blanco SAMAN 500 g</td>
+                <td class='store'>Tata</td>
+                <td>$345.00</td>
+                <td class='store'>Devoto</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$300.00 (87.0%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz Blanco SAMAN 500 g</td>
+                <td class='store'>Devoto</td>
+                <td>$309.00</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz parboiled BLUE PATNA 5 kg</td>
+                <td class='store'>Disco</td>
+                <td>$309.00</td>
+                <td class='store'>Tata</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz Blanco SAMAN 500 g</td>
+                <td class='store'>Geant</td>
+                <td>$309.00</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz parboiled BLUE PATNA 5 kg</td>
+                <td class='store'>Devoto</td>
+                <td>$309.00</td>
+                <td class='store'>Tata</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+<tr>
+                <td>Arroz Blanco SAMAN 500 g</td>
+                <td class='store'>Geant</td>
+                <td>$309.00</td>
+                <td class='store'>Devoto</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+<tr>
+                <td>ARROZ PARBOILED BLUE PATNA 500 G</td>
+                <td class='store'>Geant</td>
+                <td>$309.00</td>
+                <td class='store'>Tata</td>
+                <td class='price'>$45.00</td>
+                <td><span class='savings'>$264.00 (85.4%)</span></td>
+            </tr>
+
+        </table>
+        
+        <h2>🔗 Top Matches</h2>
+        <table>
+            <tr><th>Product 1</th><th>Store</th><th>Price</th><th>Product 2</th><th>Store</th><th>Price</th><th>Similarity</th></tr>
+<tr>
+                <td>Arroz BLUE PATNA 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$56.00</td>
+                <td>Arroz patna BLUE PATNA 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$59.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Parboiled SAMAN 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$60.00</td>
+                <td>Arroz parboiled BLUE PATNA 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$86.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz SAMAN Urumati 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$120.00</td>
+                <td>Arroz urumati SAMAN Aromatic Rice 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$140.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Green CHEF 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$49.00</td>
+                <td>Arroz patna GREEN CHEF 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$69.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Integral SAMAN 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$82.00</td>
+                <td>Arroz Integral SAMAN 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$95.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz SAMAN Don Ruggero Carnaroli 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$160.00</td>
+                <td>Arroz don ruggero SAMAN 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$186.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz BLUE PATNA 2 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$109.00</td>
+                <td>Arroz patna BLUE PATNA 2 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$149.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz SAMAN Doble Carolina 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$120.00</td>
+                <td>Arroz doble carolina SAMAN 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$140.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Integral CAMPOCLARO Orgánico 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$136.00</td>
+                <td>Arroz orgánico integral CAMPOCLARO 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$181.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz CAMPOCLARO Orgánico 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$136.00</td>
+                <td>Arroz orgánico CAMPOCLARO 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$181.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Integral MIROKUMAI 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$114.00</td>
+                <td>Arroz Integral SAMAN 1 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$95.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz 4 Quesos BLUE PATNA 200 g</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$71.00</td>
+                <td>Arroz 4 quesos BLUE PATNA 200g</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$95.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz a la Española MONTE CUDINE 200 g</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$69.00</td>
+                <td>Arroz a la española MONTE CUDINE 200 g</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$89.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz Parboiled BLUE PATNA 1 Kg</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$65.00</td>
+                <td>Arroz parboiled BLUE PATNA 5 kg</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$309.00</td>
+                <td>100.00%</td>
+            </tr>
+<tr>
+                <td>Arroz a la Española BLUE PATNA 200 g</td>
+                <td class='store'>Tienda Inglesa</td>
+                <td class='price'>$71.00</td>
+                <td>Arroz a la española BLUE PATNA 200g</td>
+                <td class='store'>Disco</td>
+                <td class='price'>$95.00</td>
+                <td>100.00%</td>
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>

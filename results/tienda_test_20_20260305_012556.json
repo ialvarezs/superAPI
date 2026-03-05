@@ -1,0 +1,222 @@
+[
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Blanco TIENDA INGLESA 1 Kg",
+    "price": 50.0,
+    "brand": "TIENDA INGLESA",
+    "ean": "7730127001934",
+    "barcode": "7730127001934",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-blanco-tienda-inglesa-1-kg.producto?1775,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P006656-1.jpg?20250711200147,Arroz-Blanco-TIENDA-INGLESA-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz BLUE PATNA 1 Kg",
+    "price": 56.0,
+    "brand": "BLUE PATNA",
+    "ean": "7730114000117",
+    "barcode": "7730114000117",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-blue-patna-1-kg.producto?23085,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P000208-1.jpg?20191127105540,Arroz-BLUE-PATNA-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Parboiled SAMAN 1 Kg",
+    "price": 60.0,
+    "brand": "SAMAN",
+    "ean": "7730115030106",
+    "barcode": "7730115030106",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-parboiled-saman-1-kg.producto?86,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P000408-1.jpg?20190404160330,Arroz-Parboiled-SAMAN-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz SAMAN Urumati 1 Kg",
+    "price": 120.0,
+    "brand": "SAMAN",
+    "ean": "7730115130103",
+    "barcode": "7730115130103",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-saman-urumati-1-kg.producto?460,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P010403-1.jpg?20190404160330,Arroz-SAMAN-Urumati-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Green CHEF 1 Kg",
+    "price": 49.0,
+    "brand": "Green CHEF",
+    "ean": "7730114400016",
+    "barcode": "7730114400016",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-green-chef-1-kg.producto?6511,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P085860-2.jpg?20240702115121,Arroz-Green-CHEF-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Integral SAMAN 1 Kg",
+    "price": 82.0,
+    "brand": "SAMAN",
+    "ean": "7730115050104",
+    "barcode": "7730115050104",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-integral-saman-1-kg.producto?711,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P001654-1.jpg?20170830115412,Arroz-Integral-SAMAN-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz SAMAN Don Ruggero Carnaroli 1 Kg",
+    "price": 160.0,
+    "brand": "SAMAN",
+    "ean": "7730115000215",
+    "barcode": "7730115000215",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-saman-don-ruggero-carnaroli-1-kg.producto?13435,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P210785-1.jpg?20210520030030,Arroz-SAMAN-Don-Ruggero-Carnaroli-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz BLUE PATNA 2 Kg",
+    "price": 109.0,
+    "brand": "BLUE PATNA",
+    "ean": "7730114000124",
+    "barcode": "7730114000124",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-blue-patna-2-kg.producto?389217,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P468395-1.jpg?20190610152856,Arroz-BLUE-PATNA-2-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz SAMAN Doble Carolina 1 Kg",
+    "price": 120.0,
+    "brand": "SAMAN",
+    "ean": "7730115150101",
+    "barcode": "7730115150101",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-saman-doble-carolina-1-kg.producto?7382,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P105956-1.jpg?20220705194926,Arroz-SAMAN-Doble-Carolina-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Integral CAMPOCLARO Orgánico 1 Kg",
+    "price": 136.0,
+    "brand": null,
+    "ean": "7730465004147",
+    "barcode": "7730465004147",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-integral-campoclaro-organico-1-kg.producto?289138,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P361534-1.jpg?20180313030241,Arroz-Integral-CAMPOCLARO-Organico-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz CAMPOCLARO Orgánico 1 Kg",
+    "price": 136.0,
+    "brand": null,
+    "ean": "7730465003126",
+    "barcode": "7730465003126",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-campoclaro-organico-1-kg.producto?289137,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P361532-1.jpg?20180313030241,Arroz-CAMPOCLARO-Organico-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Integral MIROKUMAI 1 Kg",
+    "price": 114.0,
+    "brand": null,
+    "ean": "7730900890038",
+    "barcode": "7730900890038",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-integral-mirokumai-1-kg.producto?9442,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P144730-1.jpg?20170830115518,Arroz-Integral-MIROKUMAI-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz 4 Quesos BLUE PATNA 200 g",
+    "price": 71.0,
+    "brand": "BLUE PATNA",
+    "ean": "7730114000407",
+    "barcode": "7730114000407",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-4-quesos-blue-patna-200-g.producto?9331,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P142533-1.jpg?20230118210021,Arroz-4-Quesos-BLUE-PATNA-200-g-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz a la Española MONTE CUDINE 200 g",
+    "price": 69.0,
+    "brand": "MONTE CUDINE",
+    "ean": "7730177002073",
+    "barcode": "7730177002073",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-a-la-espanola-monte-cudine-200-g.producto?7107,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P101745-2.jpg?20221102150849,Arroz-a-la-Espanola-MONTE-CUDINE-200-g-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Parboiled BLUE PATNA 1 Kg",
+    "price": 65.0,
+    "brand": "BLUE PATNA",
+    "ean": "7730114000155",
+    "barcode": "7730114000155",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-parboiled-blue-patna-1-kg.producto?1091,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P000508-2.jpg?20240702120214,Arroz-Parboiled-BLUE-PATNA-1-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz SAMAN Medio Grano Blanco 5 Kg",
+    "price": 163.0,
+    "brand": "SAMAN",
+    "ean": "7730115060509",
+    "barcode": "7730115060509",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-saman-medio-grano-blanco-5-kg.producto?6626,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P088861-1.jpg?20170830115507,Arroz-SAMAN-Medio-Grano-Blanco-5-Kg-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz a la Española BLUE PATNA 200 g",
+    "price": 71.0,
+    "brand": "BLUE PATNA",
+    "ean": "7730114000384",
+    "barcode": "7730114000384",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-a-la-espanola-blue-patna-200-g.producto?9328,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P142530-1.jpg?20230118210021,Arroz-a-la-Espanola-BLUE-PATNA-200-g-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz Carnaroli INVERNI 500 g",
+    "price": 239.0,
+    "brand": null,
+    "ean": null,
+    "barcode": null,
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-carnaroli-inverni-500-g.producto?210917,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P280372-1.jpg?20240909200210,Arroz-Carnaroli-INVERNI-500-g-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz con Hongos y Finas Hierbas MONTE CUDINE 200 g",
+    "price": 69.0,
+    "brand": "MONTE CUDINE",
+    "ean": "7730177002110",
+    "barcode": "7730177002110",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-con-hongos-y-finas-hierbas-monte-cudine-200-g.producto?7109,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P101748-2.jpg?20221102151450,Arroz-con-Hongos-y-Finas-Hierbas-MONTE-CUDINE-200-g-en-Tienda-Inglesa"
+  },
+  {
+    "supermarket": "tienda_inglesa",
+    "name": "Arroz MONTE CUDINE Paella 200 g",
+    "price": 69.0,
+    "brand": "MONTE CUDINE",
+    "ean": "7730177002103",
+    "barcode": "7730177002103",
+    "category": "arroz",
+    "url": "https://www.tiendainglesa.com.uy/supermercado/arroz-monte-cudine-paella-200-g.producto?7108,,42",
+    "image_url": "https://prod-resize.tiendainglesa.com.uy/images/medium/P101747-2.jpg?20221102151252,Arroz-MONTE-CUDINE-Paella-200-g-en-Tienda-Inglesa"
+  }
+]

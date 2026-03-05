@@ -1,1 +1,363 @@
 similarity_score,price_difference,cheaper_store,supermarket_1,name_1,price_1,barcode_1,supermarket_2,name_2,price_2,barcode_2
+0.9272727272727272,24.0,tienda_inglesa,tienda_inglesa,Arroz Blanco TIENDA INGLESA 1 Kg,50.0,7730127001934,disco,Arroz blanco SAMAN 1 kg,74.0,7730115040105
+1.0,3.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 1 Kg,56.0,7730114000117,disco,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,26.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled SAMAN 1 Kg,60.0,7730115030106,disco,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Urumati 1 Kg,120.0,7730115130103,disco,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz Green CHEF 1 Kg,49.0,7730114400016,disco,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,13.0,tienda_inglesa,tienda_inglesa,Arroz Integral SAMAN 1 Kg,82.0,7730115050104,disco,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,26.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Don Ruggero Carnaroli 1 Kg,160.0,7730115000215,disco,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,40.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 2 Kg,109.0,7730114000124,disco,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Doble Carolina 1 Kg,120.0,7730115150101,disco,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,45.0,tienda_inglesa,tienda_inglesa,Arroz Integral CAMPOCLARO Orgánico 1 Kg,136.0,7730465004147,disco,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147
+1.0,45.0,tienda_inglesa,tienda_inglesa,Arroz CAMPOCLARO Orgánico 1 Kg,136.0,7730465003126,disco,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126
+1.0,19.0,disco,tienda_inglesa,Arroz Integral MIROKUMAI 1 Kg,114.0,7730900890038,disco,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,24.0,tienda_inglesa,tienda_inglesa,Arroz 4 Quesos BLUE PATNA 200 g,71.0,7730114000407,disco,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz a la Española MONTE CUDINE 200 g,69.0,7730177002073,disco,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766
+1.0,244.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled BLUE PATNA 1 Kg,65.0,7730114000155,disco,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+0.7862068965517242,146.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Medio Grano Blanco 5 Kg,163.0,7730115060509,disco,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,24.0,tienda_inglesa,tienda_inglesa,Arroz a la Española BLUE PATNA 200 g,71.0,7730114000384,disco,Arroz a la española BLUE PATNA 200g,95.0,7730114000384
+0.919672131147541,57.0,tienda_inglesa,tienda_inglesa,Arroz Carnaroli INVERNI 500 g,239.0,,disco,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140
+0.913953488372093,20.0,tienda_inglesa,tienda_inglesa,Arroz con Hongos y Finas Hierbas MONTE CUDINE 200 g,69.0,7730177002110,disco,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780
+0.8741935483870967,20.0,tienda_inglesa,tienda_inglesa,Arroz MONTE CUDINE Paella 200 g,69.0,7730177002103,disco,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797
+0.9272727272727272,24.0,tienda_inglesa,tienda_inglesa,Arroz Blanco TIENDA INGLESA 1 Kg,50.0,7730127001934,devoto,Arroz blanco SAMAN 1 kg,74.0,7730115040105
+1.0,3.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 1 Kg,56.0,7730114000117,devoto,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,26.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled SAMAN 1 Kg,60.0,7730115030106,devoto,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Urumati 1 Kg,120.0,7730115130103,devoto,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz Green CHEF 1 Kg,49.0,7730114400016,devoto,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,13.0,tienda_inglesa,tienda_inglesa,Arroz Integral SAMAN 1 Kg,82.0,7730115050104,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,26.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Don Ruggero Carnaroli 1 Kg,160.0,7730115000215,devoto,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,40.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 2 Kg,109.0,7730114000124,devoto,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Doble Carolina 1 Kg,120.0,7730115150101,devoto,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,45.0,tienda_inglesa,tienda_inglesa,Arroz Integral CAMPOCLARO Orgánico 1 Kg,136.0,7730465004147,devoto,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147
+1.0,45.0,tienda_inglesa,tienda_inglesa,Arroz CAMPOCLARO Orgánico 1 Kg,136.0,7730465003126,devoto,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126
+1.0,19.0,devoto,tienda_inglesa,Arroz Integral MIROKUMAI 1 Kg,114.0,7730900890038,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,24.0,tienda_inglesa,tienda_inglesa,Arroz 4 Quesos BLUE PATNA 200 g,71.0,7730114000407,devoto,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407
+1.0,24.0,tienda_inglesa,tienda_inglesa,Arroz a la Española MONTE CUDINE 200 g,69.0,7730177002073,devoto,Arroz a la española MONTE CUDINE 200 g,93.0,7730177003766
+1.0,244.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled BLUE PATNA 1 Kg,65.0,7730114000155,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+0.7862068965517242,146.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Medio Grano Blanco 5 Kg,163.0,7730115060509,devoto,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,24.0,tienda_inglesa,tienda_inglesa,Arroz a la Española BLUE PATNA 200 g,71.0,7730114000384,devoto,Arroz a la española BLUE PATNA 200g,95.0,7730114000384
+0.919672131147541,57.0,tienda_inglesa,tienda_inglesa,Arroz Carnaroli INVERNI 500 g,239.0,,devoto,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140
+0.913953488372093,24.0,tienda_inglesa,tienda_inglesa,Arroz con Hongos y Finas Hierbas MONTE CUDINE 200 g,69.0,7730177002110,devoto,Arroz con hongos MONTE CUDINE 200 g,93.0,7730177003780
+0.8741935483870967,24.0,tienda_inglesa,tienda_inglesa,Arroz MONTE CUDINE Paella 200 g,69.0,7730177002103,devoto,Arroz paella MONTE CUDINE 200 g,93.0,7730177003797
+1.0,1.0,tienda_inglesa,tienda_inglesa,Arroz Blanco TIENDA INGLESA 1 Kg,50.0,7730127001934,tata,Arroz Blanco Ta-Ta 1 Kg,51.0,
+1.0,21.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 1 Kg,56.0,7730114000117,tata,Arroz Blue Patna Bolsa 1 Kg,77.0,
+1.0,12.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled SAMAN 1 Kg,60.0,7730115030106,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.9347826086956521,70.0,tata,tienda_inglesa,Arroz SAMAN Urumati 1 Kg,120.0,7730115130103,tata,Arroz Patna Saman 1 Kg,50.0,
+1.0,12.0,tienda_inglesa,tienda_inglesa,Arroz Green CHEF 1 Kg,49.0,7730114400016,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+1.0,32.0,tata,tienda_inglesa,Arroz Integral SAMAN 1 Kg,82.0,7730115050104,tata,Arroz Patna Saman 1 Kg,50.0,
+1.0,32.0,tata,tienda_inglesa,Arroz BLUE PATNA 2 Kg,109.0,7730114000124,tata,Arroz Blue Patna Bolsa 1 Kg,77.0,
+0.8245283018867924,70.0,tata,tienda_inglesa,Arroz SAMAN Doble Carolina 1 Kg,120.0,7730115150101,tata,Arroz Patna Saman 1 Kg,50.0,
+0.95,23.0,tata,tienda_inglesa,Arroz Integral CAMPOCLARO Orgánico 1 Kg,136.0,7730465004147,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,1.0,tata,tienda_inglesa,Arroz Integral MIROKUMAI 1 Kg,114.0,7730900890038,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,13.0,tienda_inglesa,tienda_inglesa,Arroz 4 Quesos BLUE PATNA 200 g,71.0,7730114000407,tata,Arroz Saborizado 4 Quesos Blue Patna 200 G,84.0,
+1.0,21.0,tienda_inglesa,tienda_inglesa,Arroz a la Española MONTE CUDINE 200 g,69.0,7730177002073,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+1.0,10.0,tata,tienda_inglesa,Arroz Parboiled BLUE PATNA 1 Kg,65.0,7730114000155,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+0.903448275862069,182.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Medio Grano Blanco 5 Kg,163.0,7730115060509,tata,ARROZ BLANCO SAMAN 5 KG,345.0,
+0.9923076923076923,13.0,tienda_inglesa,tienda_inglesa,Arroz a la Española BLUE PATNA 200 g,71.0,7730114000384,tata,Arroz Saborizado 4 Quesos Blue Patna 200 G,84.0,
+0.7959999999999999,21.0,tienda_inglesa,tienda_inglesa,Arroz con Hongos y Finas Hierbas MONTE CUDINE 200 g,69.0,7730177002110,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.82,21.0,tienda_inglesa,tienda_inglesa,Arroz MONTE CUDINE Paella 200 g,69.0,7730177002103,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.9272727272727272,24.0,tienda_inglesa,tienda_inglesa,Arroz Blanco TIENDA INGLESA 1 Kg,50.0,7730127001934,geant,Arroz blanco SAMAN 1 kg,74.0,7730115040105
+1.0,3.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 1 Kg,56.0,7730114000117,geant,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,25.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled SAMAN 1 Kg,60.0,7730115030106,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Urumati 1 Kg,120.0,7730115130103,geant,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz Green CHEF 1 Kg,49.0,7730114400016,geant,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,13.0,tienda_inglesa,tienda_inglesa,Arroz Integral SAMAN 1 Kg,82.0,7730115050104,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,26.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Don Ruggero Carnaroli 1 Kg,160.0,7730115000215,geant,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,38.0,tienda_inglesa,tienda_inglesa,Arroz BLUE PATNA 2 Kg,109.0,7730114000124,geant,Arroz patna BLUE PATNA 2 kg,147.0, 7730114000124
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Doble Carolina 1 Kg,120.0,7730115150101,geant,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,42.0,tienda_inglesa,tienda_inglesa,Arroz Integral CAMPOCLARO Orgánico 1 Kg,136.0,7730465004147,geant,Arroz orgánico integral CAMPOCLARO 1 kg,178.0,7730465004147
+1.0,42.0,tienda_inglesa,tienda_inglesa,Arroz CAMPOCLARO Orgánico 1 Kg,136.0,7730465003126,geant,Arroz orgánico CAMPOCLARO 1 kg,178.0,7730465003126
+1.0,19.0,geant,tienda_inglesa,Arroz Integral MIROKUMAI 1 Kg,114.0,7730900890038,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,23.0,tienda_inglesa,tienda_inglesa,Arroz 4 Quesos BLUE PATNA 200 g,71.0,7730114000407,geant,Arroz 4 quesos BLUE PATNA 200g,94.0,7730114000407
+1.0,20.0,tienda_inglesa,tienda_inglesa,Arroz a la Española MONTE CUDINE 200 g,69.0,7730177002073,geant,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766
+1.0,244.0,tienda_inglesa,tienda_inglesa,Arroz Parboiled BLUE PATNA 1 Kg,65.0,7730114000155,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+0.7862068965517242,146.0,tienda_inglesa,tienda_inglesa,Arroz SAMAN Medio Grano Blanco 5 Kg,163.0,7730115060509,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,23.0,tienda_inglesa,tienda_inglesa,Arroz a la Española BLUE PATNA 200 g,71.0,7730114000384,geant,Arroz a la española BLUE PATNA 200g,94.0,7730114000384
+0.919672131147541,40.0,tienda_inglesa,tienda_inglesa,Arroz Carnaroli INVERNI 500 g,239.0,,geant,Arroz arborio RISO INVERNI 500 g,279.0,8001420002140
+0.913953488372093,20.0,tienda_inglesa,tienda_inglesa,Arroz con Hongos y Finas Hierbas MONTE CUDINE 200 g,69.0,7730177002110,geant,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780
+0.8741935483870967,20.0,tienda_inglesa,tienda_inglesa,Arroz MONTE CUDINE Paella 200 g,69.0,7730177002103,geant,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797
+1.0,0.0,devoto,disco,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,0.0,devoto,disco,Arroz a la criolla BLUE PATNA 200g,95.0,7730114000391,devoto,Arroz a la criolla BLUE PATNA 200g,95.0,7730114000391
+1.0,4.0,disco,disco,Arroz Primavera MONTE CUDINE 200 g,89.0,7730177003759,devoto,Arroz Primavera MONTE CUDINE 200 g,93.0,7730177003759
+1.0,261.0,disco,disco,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,0.0,devoto,disco,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624,devoto,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624
+1.0,0.0,devoto,disco,Arroz patna green CHEF 5 kg,289.0,,devoto,Arroz patna green CHEF 5 kg,289.0,
+1.0,0.0,devoto,disco,Arroz carnaroli CURTIRISO,375.0,8017759011708,devoto,Arroz carnaroli CURTIRISO,375.0,8017759011708
+1.0,0.0,devoto,disco,Arroz arborio Risotto CURTIRISO,375.0,8017759011104,devoto,Arroz arborio Risotto CURTIRISO,375.0,8017759011104
+1.0,0.0,devoto,disco,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016,devoto,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,0.0,devoto,disco,Arroz primavera MONTE CUDINE 115 g,45.0,7730177004695,devoto,Arroz primavera MONTE CUDINE 115 g,45.0,7730177004695
+1.0,223.0,disco,disco,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,4.0,disco,disco,Arroz con espárragos MONTE CUDINE 200 g,89.0,7730177003773,devoto,Arroz con espárragos MONTE CUDINE 200 g,93.0,7730177003773
+1.0,0.0,devoto,disco,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021,devoto,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,devoto,disco,Arroz blanco SAMAN 5 kg,309.0,7730115000352,devoto,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,4.0,disco,disco,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780,devoto,Arroz con hongos MONTE CUDINE 200 g,93.0,7730177003780
+1.0,0.0,devoto,disco,Arroz corto panoja 1 kg,119.0,7730946220066,devoto,Arroz corto panoja 1 kg,119.0,7730946220066
+1.0,0.0,devoto,disco,Arroz SHIVA 5 kg,199.0, 7730114000551,devoto,Arroz SHIVA 5 kg,199.0, 7730114000551
+1.0,0.0,devoto,disco,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688,devoto,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688
+1.0,0.0,devoto,disco,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140,devoto,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140
+1.0,2.0,disco,disco,Arroz parboiled SAMAN 1 kg,84.0,7730115030106,devoto,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155
+1.0,0.0,devoto,disco,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124,devoto,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124
+1.0,0.0,devoto,disco,Arroz a la española BLUE PATNA 200g,95.0,7730114000384,devoto,Arroz a la española BLUE PATNA 200g,95.0,7730114000384
+1.0,0.0,devoto,disco,Arroz milanés BLUE PATNA 200g,95.0,7730114000445,devoto,Arroz milanés BLUE PATNA 200g,95.0,7730114000445
+1.0,0.0,devoto,disco,Arroz paella BLUE PATNA 200g,95.0,7730114000452,devoto,Arroz paella BLUE PATNA 200g,95.0,7730114000452
+1.0,0.0,devoto,disco,Arroz primavera BLUE PATNA 200g,95.0,7730114000469,devoto,Arroz primavera BLUE PATNA 200g,95.0,7730114000469
+1.0,264.0,disco,disco,Arroz Blanco SAMAN 500 g,45.0, 7730115000239,devoto,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,4.0,disco,disco,Arroz con queso MONTE CUDINE 200 g,89.0,7730177003803,devoto,Arroz con queso MONTE CUDINE 200 g,93.0,7730177003803
+1.0,0.0,devoto,disco,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101,devoto,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,78.0,disco,disco,Arroz blanco SAMAN 1 kg,74.0,7730115040105,devoto,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,devoto,disco,Arroz patna GREEN CHEF 500g,25.0,7730114000292,devoto,Arroz patna GREEN CHEF 500g,25.0,7730114000292
+1.0,104.0,disco,disco,Arroz patna BLUE PATNA 5 kg,229.0, 7730114000148,devoto,Arroz patna BLUE PATNA 5 kg,333.0, 7730114000148
+1.0,0.0,devoto,disco,Arroz con hongos BLUE PATNA 200g,95.0,7730114000421,devoto,Arroz con hongos BLUE PATNA 200g,95.0,7730114000421
+1.0,0.0,devoto,disco,Arroz con espárragos MONTE CUDINE 115 g,45.0,7730177004701,devoto,Arroz con espárragos MONTE CUDINE 115 g,45.0,7730177004701
+1.0,4.0,disco,disco,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797,devoto,Arroz paella MONTE CUDINE 200 g,93.0,7730177003797
+1.0,0.0,devoto,disco,Arroz Bomba COOPAR 400g,200.0,7730114000506,devoto,Arroz Bomba COOPAR 400g,200.0,7730114000506
+1.0,0.0,devoto,disco,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147,devoto,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147
+1.0,0.0,devoto,disco,Arroz PALADAR 500 g,42.0, 7730934130469,devoto,Arroz PALADAR 500 g,42.0, 7730934130469
+1.0,0.0,devoto,disco,Arroz patna ARUBA 1 kg,45.0, 7730115170109,devoto,Arroz patna ARUBA 1 kg,45.0, 7730115170109
+1.0,9.0,disco,disco,Arroz VIDARROZ 1 kg,45.0,7730114000728,devoto,Arroz VIDARROZ 1 kg,54.0,7730114000728
+1.0,4.0,disco,disco,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766,devoto,Arroz a la española MONTE CUDINE 200 g,93.0,7730177003766
+1.0,0.0,devoto,disco,Arroz carnaroli RISO INVERNI 1 kg,534.0,8001420001938,devoto,Arroz carnaroli RISO INVERNI 1 kg,534.0,8001420001938
+1.0,0.0,devoto,disco,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215,devoto,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,0.0,devoto,disco,Arroz integral COOPAR 400 g,45.0,7730114000483,devoto,Arroz integral COOPAR 400 g,45.0,7730114000483
+1.0,0.0,devoto,disco,Arroz Integral SAMAN 1 kg,95.0,7730115050104,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,0.0,devoto,disco,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407,devoto,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407
+1.0,0.0,devoto,disco,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880,devoto,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880
+1.0,0.0,devoto,disco,Arroz medio grano PRECIO LÍDER,51.0,7730593004873,devoto,Arroz medio grano PRECIO LÍDER,51.0,7730593004873
+1.0,0.0,devoto,disco,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070,devoto,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070
+1.0,0.0,devoto,disco,Arroz patna SAMAN 1 kg,55.0,,devoto,Arroz patna SAMAN 1 kg,55.0,
+1.0,24.0,devoto,disco,Arroz integral panoja 1 kg,119.0,7730946220097,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,0.0,devoto,disco,Arroz kansushi SAMAN 1kg,133.0,7730115000253,devoto,Arroz kansushi SAMAN 1kg,133.0,7730115000253
+1.0,0.0,devoto,disco,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897,devoto,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897
+1.0,48.0,devoto,disco,Arroz integral MIROKUMAI 1 kg,143.0,7730900890038,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,1.0,devoto,disco,Arroz Parboiled SAMAN 500 g,49.0,,devoto,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513
+1.0,0.0,devoto,disco,Arroz patna BLUE PATNA 500 g,45.0,7730114000131,devoto,Arroz patna BLUE PATNA 500 g,45.0,7730114000131
+1.0,0.0,devoto,disco,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126,devoto,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126
+1.0,0.0,devoto,disco,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103,devoto,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,0.0,devoto,disco,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117,devoto,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,264.0,tata,disco,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+0.8228915662650602,1.0,disco,disco,Arroz Primavera MONTE CUDINE 200 g,89.0,7730177003759,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+1.0,3.0,tata,disco,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+0.7666666666666666,350.0,tata,disco,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624,tata,Arroz Parboiled Saman 1 Kg,84.0,
+0.975,40.0,tata,disco,Arroz patna green CHEF 5 kg,289.0,,tata,Arroz Green Chef 5 Kg,249.0,
+1.0,8.0,tata,disco,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+1.0,31.0,tata,disco,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+0.8272727272727273,1.0,disco,disco,Arroz con espárragos MONTE CUDINE 200 g,89.0,7730177003773,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+1.0,80.0,tata,disco,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,237.0,tata,disco,Arroz blanco SAMAN 5 kg,309.0,7730115000352,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.7666666666666666,1.0,disco,disco,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.7956521739130434,47.0,tata,disco,Arroz corto panoja 1 kg,119.0,7730946220066,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.7666666666666666,146.0,disco,disco,Arroz SHIVA 5 kg,199.0, 7730114000551,tata,ARROZ BLANCO SAMAN 5 KG,345.0,
+0.8085106382978723,50.0,disco,disco,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688,tata,Arroz Saborizado Monte Cudine Con Queso 190 G,95.0,
+1.0,29.0,tata,disco,Arroz parboiled SAMAN 1 kg,84.0,7730115030106,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+1.0,5.0,disco,disco,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.7857142857142857,59.0,disco,disco,Arroz milanés BLUE PATNA 200g,95.0,7730114000445,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.8363636363636363,59.0,disco,disco,Arroz paella BLUE PATNA 200g,95.0,7730114000452,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.7936507936507936,50.0,tata,disco,Arroz primavera BLUE PATNA 200g,95.0,7730114000469,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+1.0,300.0,disco,disco,Arroz Blanco SAMAN 500 g,45.0, 7730115000239,tata,ARROZ BLANCO SAMAN 5 KG,345.0,
+0.8228915662650602,1.0,disco,disco,Arroz con queso MONTE CUDINE 200 g,89.0,7730177003803,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.8777777777777778,68.0,tata,disco,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,2.0,tata,disco,Arroz blanco SAMAN 1 kg,74.0,7730115040105,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.8,36.0,disco,disco,Arroz patna GREEN CHEF 500g,25.0,7730114000292,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+0.9629629629629629,75.0,tata,disco,Arroz patna BLUE PATNA 5 kg,229.0, 7730114000148,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.825,1.0,disco,disco,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.91875,68.0,tata,disco,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147,tata,Arroz Integral Saman 1 Kg,113.0,
+0.8317073170731707,3.0,disco,disco,Arroz PALADAR 500 g,42.0, 7730934130469,tata,Arroz Blue Patna 500 G,45.0,
+1.0,1.0,tata,disco,Arroz patna ARUBA 1 kg,45.0, 7730115170109,tata,Arroz Patna Aruba 1 Kg,44.0,
+1.0,1.0,disco,disco,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.8450980392156863,114.0,tata,disco,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.8307692307692307,68.0,disco,disco,Arroz integral COOPAR 400 g,45.0,7730114000483,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,18.0,disco,disco,Arroz Integral SAMAN 1 kg,95.0,7730115050104,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,11.0,tata,disco,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407,tata,Arroz Saborizado 4 Quesos Blue Patna 200 G,84.0,
+0.9457627118644067,23.0,tata,disco,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+1.0,5.0,tata,disco,Arroz patna SAMAN 1 kg,55.0,,tata,Arroz Patna Saman 1 Kg,50.0,
+1.0,6.0,tata,disco,Arroz integral panoja 1 kg,119.0,7730946220097,tata,Arroz Integral Saman 1 Kg,113.0,
+0.782608695652174,83.0,tata,disco,Arroz kansushi SAMAN 1kg,133.0,7730115000253,tata,Arroz Patna Saman 1 Kg,50.0,
+0.8096774193548387,7.0,tata,disco,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+1.0,30.0,tata,disco,Arroz integral MIROKUMAI 1 kg,143.0,7730900890038,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,35.0,disco,disco,Arroz Parboiled SAMAN 500 g,49.0,,tata,Arroz Parboiled Saman 1 Kg,84.0,
+1.0,0.0,tata,disco,Arroz patna BLUE PATNA 500 g,45.0,7730114000131,tata,Arroz Blue Patna 500 G,45.0,
+0.7792452830188679,109.0,tata,disco,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,18.0,disco,disco,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117,tata,Arroz Blue Patna Bolsa 1 Kg,77.0,
+1.0,0.0,geant,disco,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,1.0,geant,disco,Arroz a la criolla BLUE PATNA 200g,95.0,7730114000391,geant,Arroz a la criolla BLUE PATNA 200g,94.0,7730114000391
+1.0,0.0,geant,disco,Arroz Primavera MONTE CUDINE 200 g,89.0,7730177003759,geant,Arroz Primavera MONTE CUDINE 200 g,89.0,7730177003759
+1.0,17.0,geant,disco,Arroz DELIARROZ con curry samán 190g,113.0,7730115000567,geant,Arroz DELIARROZ con curry samán 190g,96.0,7730115000567
+1.0,261.0,disco,disco,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,17.0,geant,disco,Arroz DELIARROZ caprese samán 190g,113.0,7730115000598,geant,Arroz DELIARROZ caprese samán 190g,96.0,7730115000598
+1.0,12.0,geant,disco,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624,geant,Arroz arborio RISO INVERNI 1 kg,422.0,8001420001624
+1.0,17.0,geant,disco,Arroz SAMAN Deliarroz 4 quesos 190 g,113.0,7730115000581,geant,Arroz SAMAN Deliarroz 4 quesos 190 g,96.0,7730115000581
+1.0,60.0,geant,disco,Arroz patna green CHEF 5 kg,289.0,,geant,Arroz patna green CHEF 5 kg,229.0,
+1.0,0.0,geant,disco,Arroz carnaroli CURTIRISO,375.0,8017759011708,geant,Arroz carnaroli CURTIRISO,375.0,8017759011708
+1.0,0.0,geant,disco,Arroz arborio Risotto CURTIRISO,375.0,8017759011104,geant,Arroz arborio Risotto CURTIRISO,375.0,8017759011104
+1.0,0.0,geant,disco,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016,geant,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,15.0,geant,disco,Arroz primavera MONTE CUDINE 115 g,45.0,7730177004695,geant,Arroz primavera MONTE CUDINE 115 g,30.0,7730177004695
+1.0,223.0,disco,disco,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,0.0,geant,disco,Arroz con espárragos MONTE CUDINE 200 g,89.0,7730177003773,geant,Arroz con espárragos MONTE CUDINE 200 g,89.0,7730177003773
+1.0,0.0,geant,disco,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021,geant,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,geant,disco,Arroz blanco SAMAN 5 kg,309.0,7730115000352,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,0.0,geant,disco,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780,geant,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780
+1.0,0.0,geant,disco,Arroz corto panoja 1 kg,119.0,7730946220066,geant,Arroz corto panoja 1 kg,119.0,7730946220066
+1.0,0.0,geant,disco,Arroz SHIVA 5 kg,199.0, 7730114000551,geant,Arroz SHIVA 5 kg,199.0, 7730114000551
+1.0,15.0,geant,disco,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688,geant,Arroz saborizado MONTE CUDINE a la española 115 g,30.0, 7730177004688
+1.0,17.0,geant,disco,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140,geant,Arroz arborio RISO INVERNI 500 g,279.0,8001420002140
+1.0,1.0,disco,disco,Arroz parboiled SAMAN 1 kg,84.0,7730115030106,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+1.0,2.0,geant,disco,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124,geant,Arroz patna BLUE PATNA 2 kg,147.0, 7730114000124
+1.0,1.0,geant,disco,Arroz a la española BLUE PATNA 200g,95.0,7730114000384,geant,Arroz a la española BLUE PATNA 200g,94.0,7730114000384
+1.0,1.0,geant,disco,Arroz milanés BLUE PATNA 200g,95.0,7730114000445,geant,Arroz milanés BLUE PATNA 200g,94.0,7730114000445
+1.0,1.0,geant,disco,Arroz paella BLUE PATNA 200g,95.0,7730114000452,geant,Arroz paella BLUE PATNA 200g,94.0,7730114000452
+1.0,1.0,geant,disco,Arroz primavera BLUE PATNA 200g,95.0,7730114000469,geant,Arroz primavera BLUE PATNA 200g,94.0,7730114000469
+1.0,264.0,disco,disco,Arroz Blanco SAMAN 500 g,45.0, 7730115000239,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,0.0,geant,disco,Arroz con queso MONTE CUDINE 200 g,89.0,7730177003803,geant,Arroz con queso MONTE CUDINE 200 g,89.0,7730177003803
+1.0,0.0,geant,disco,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101,geant,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,78.0,disco,disco,Arroz blanco SAMAN 1 kg,74.0,7730115040105,geant,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,geant,disco,Arroz patna GREEN CHEF 500g,25.0,7730114000292,geant,Arroz patna GREEN CHEF 500g,25.0,7730114000292
+1.0,0.0,geant,disco,Arroz patna BLUE PATNA 5 kg,229.0, 7730114000148,geant,Arroz patna BLUE PATNA 5 kg,229.0, 7730114000148
+1.0,1.0,geant,disco,Arroz con hongos BLUE PATNA 200g,95.0,7730114000421,geant,Arroz con hongos BLUE PATNA 200g,94.0,7730114000421
+1.0,15.0,geant,disco,Arroz con espárragos MONTE CUDINE 115 g,45.0,7730177004701,geant,Arroz con espárragos MONTE CUDINE 115 g,30.0,7730177004701
+1.0,0.0,geant,disco,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797,geant,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797
+1.0,4.0,geant,disco,Arroz Bomba COOPAR 400g,200.0,7730114000506,geant,Arroz Bomba COOPAR 400g,196.0,7730114000506
+1.0,3.0,geant,disco,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147,geant,Arroz orgánico integral CAMPOCLARO 1 kg,178.0,7730465004147
+1.0,0.0,geant,disco,Arroz PALADAR 500 g,42.0, 7730934130469,geant,Arroz PALADAR 500 g,42.0, 7730934130469
+1.0,0.0,geant,disco,Arroz patna ARUBA 1 kg,45.0, 7730115170109,geant,Arroz patna ARUBA 1 kg,45.0, 7730115170109
+1.0,0.0,geant,disco,Arroz VIDARROZ 1 kg,45.0,7730114000728,geant,Arroz VIDARROZ 1 kg,45.0,7730114000728
+1.0,0.0,geant,disco,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766,geant,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766
+1.0,22.0,geant,disco,Arroz carnaroli RISO INVERNI 1 kg,534.0,8001420001938,geant,Arroz carnaroli RISO INVERNI 1 kg,512.0,8001420001938
+1.0,0.0,geant,disco,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215,geant,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,17.0,geant,disco,Arroz DELIARROZ 7 vegetales samán 190g,113.0,7730115000574,geant,Arroz DELIARROZ 7 vegetales samán 190g,96.0,7730115000574
+1.0,20.0,geant,disco,Arroz integral COOPAR 400 g,45.0,7730114000483,geant,Arroz integral COOPAR 400 g,25.0,7730114000483
+1.0,0.0,geant,disco,Arroz Integral SAMAN 1 kg,95.0,7730115050104,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,1.0,geant,disco,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407,geant,Arroz 4 quesos BLUE PATNA 200g,94.0,7730114000407
+1.0,0.0,geant,disco,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880,geant,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880
+1.0,0.0,geant,disco,Arroz medio grano PRECIO LÍDER,51.0,7730593004873,geant,Arroz medio grano PRECIO LÍDER,51.0,7730593004873
+1.0,0.0,geant,disco,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070,geant,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070
+1.0,0.0,geant,disco,Arroz patna SAMAN 1 kg,55.0,,geant,Arroz patna SAMAN 1 kg,55.0,
+1.0,24.0,geant,disco,Arroz integral panoja 1 kg,119.0,7730946220097,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,0.0,geant,disco,Arroz kansushi SAMAN 1kg,133.0,7730115000253,geant,Arroz kansushi SAMAN 1kg,133.0,7730115000253
+1.0,0.0,geant,disco,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897,geant,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897
+1.0,48.0,geant,disco,Arroz integral MIROKUMAI 1 kg,143.0,7730900890038,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,24.0,geant,disco,Arroz Parboiled SAMAN 500 g,49.0,,geant,Arroz parboiled BLUE PATNA 500 g,25.0,7730114000513
+1.0,20.0,geant,disco,Arroz patna BLUE PATNA 500 g,45.0,7730114000131,geant,Arroz patna BLUE PATNA 500 g,25.0,7730114000131
+1.0,3.0,geant,disco,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126,geant,Arroz orgánico CAMPOCLARO 1 kg,178.0,7730465003126
+1.0,17.0,geant,disco,Arroz DELIARROZ a la española samán 190g,113.0,7730115000550,geant,Arroz DELIARROZ a la española samán 190g,96.0,7730115000550
+1.0,0.0,geant,disco,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103,geant,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,0.0,geant,disco,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117,geant,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,264.0,tata,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+0.8228915662650602,3.0,tata,devoto,Arroz Primavera MONTE CUDINE 200 g,93.0,7730177003759,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+1.0,3.0,tata,devoto,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+0.7666666666666666,350.0,tata,devoto,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624,tata,Arroz Parboiled Saman 1 Kg,84.0,
+0.975,40.0,tata,devoto,Arroz patna green CHEF 5 kg,289.0,,tata,Arroz Green Chef 5 Kg,249.0,
+1.0,8.0,tata,devoto,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+1.0,31.0,tata,devoto,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+0.8272727272727273,3.0,tata,devoto,Arroz con espárragos MONTE CUDINE 200 g,93.0,7730177003773,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+1.0,80.0,tata,devoto,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,237.0,tata,devoto,Arroz blanco SAMAN 5 kg,309.0,7730115000352,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.7666666666666666,3.0,tata,devoto,Arroz con hongos MONTE CUDINE 200 g,93.0,7730177003780,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.7956521739130434,47.0,tata,devoto,Arroz corto panoja 1 kg,119.0,7730946220066,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.7666666666666666,146.0,devoto,devoto,Arroz SHIVA 5 kg,199.0, 7730114000551,tata,ARROZ BLANCO SAMAN 5 KG,345.0,
+0.8085106382978723,50.0,devoto,devoto,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688,tata,Arroz Saborizado Monte Cudine Con Queso 190 G,95.0,
+1.0,29.0,tata,devoto,Arroz parboiled SAMAN 1 kg,84.0,7730115030106,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+1.0,5.0,devoto,devoto,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.7857142857142857,59.0,devoto,devoto,Arroz milanés BLUE PATNA 200g,95.0,7730114000445,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.8363636363636363,59.0,devoto,devoto,Arroz paella BLUE PATNA 200g,95.0,7730114000452,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.7936507936507936,50.0,tata,devoto,Arroz primavera BLUE PATNA 200g,95.0,7730114000469,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,
+1.0,300.0,devoto,devoto,Arroz Blanco SAMAN 500 g,45.0, 7730115000239,tata,ARROZ BLANCO SAMAN 5 KG,345.0,
+0.8228915662650602,3.0,tata,devoto,Arroz con queso MONTE CUDINE 200 g,93.0,7730177003803,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.8777777777777778,68.0,tata,devoto,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,2.0,tata,devoto,Arroz blanco SAMAN 1 kg,74.0,7730115040105,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.8,36.0,devoto,devoto,Arroz patna GREEN CHEF 500g,25.0,7730114000292,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+0.9629629629629629,179.0,tata,devoto,Arroz patna BLUE PATNA 5 kg,333.0, 7730114000148,tata,Arroz Patna Blue Patna 2 Kg,154.0,
+0.825,3.0,tata,devoto,Arroz paella MONTE CUDINE 200 g,93.0,7730177003797,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.91875,68.0,tata,devoto,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147,tata,Arroz Integral Saman 1 Kg,113.0,
+0.8317073170731707,3.0,devoto,devoto,Arroz PALADAR 500 g,42.0, 7730934130469,tata,Arroz Blue Patna 500 G,45.0,
+1.0,1.0,tata,devoto,Arroz patna ARUBA 1 kg,45.0, 7730115170109,tata,Arroz Patna Aruba 1 Kg,44.0,
+1.0,3.0,tata,devoto,Arroz a la española MONTE CUDINE 200 g,93.0,7730177003766,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,
+0.8450980392156863,114.0,tata,devoto,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215,tata,Arroz Blanco Saman 1 Kg,72.0,
+0.8307692307692307,68.0,devoto,devoto,Arroz integral COOPAR 400 g,45.0,7730114000483,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,18.0,devoto,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,11.0,tata,devoto,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407,tata,Arroz Saborizado 4 Quesos Blue Patna 200 G,84.0,
+0.9457627118644067,23.0,tata,devoto,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,
+1.0,5.0,tata,devoto,Arroz patna SAMAN 1 kg,55.0,,tata,Arroz Patna Saman 1 Kg,50.0,
+1.0,6.0,tata,devoto,Arroz integral panoja 1 kg,119.0,7730946220097,tata,Arroz Integral Saman 1 Kg,113.0,
+0.782608695652174,83.0,tata,devoto,Arroz kansushi SAMAN 1kg,133.0,7730115000253,tata,Arroz Patna Saman 1 Kg,50.0,
+0.8096774193548387,7.0,tata,devoto,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,
+1.0,30.0,tata,devoto,Arroz integral MIROKUMAI 1 kg,143.0,7730900890038,tata,Arroz Integral Saman 1 Kg,113.0,
+1.0,35.0,devoto,devoto,Arroz Parboiled SAMAN 500 g,49.0,,tata,Arroz Parboiled Saman 1 Kg,84.0,
+1.0,0.0,tata,devoto,Arroz patna BLUE PATNA 500 g,45.0,7730114000131,tata,Arroz Blue Patna 500 G,45.0,
+0.7792452830188679,109.0,tata,devoto,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126,tata,Arroz Blanco Saman 1 Kg,72.0,
+1.0,18.0,devoto,devoto,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117,tata,Arroz Blue Patna Bolsa 1 Kg,77.0,
+1.0,0.0,geant,devoto,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,1.0,geant,devoto,Arroz a la criolla BLUE PATNA 200g,95.0,7730114000391,geant,Arroz a la criolla BLUE PATNA 200g,94.0,7730114000391
+1.0,4.0,geant,devoto,Arroz Primavera MONTE CUDINE 200 g,93.0,7730177003759,geant,Arroz Primavera MONTE CUDINE 200 g,89.0,7730177003759
+1.0,261.0,devoto,devoto,Arroz parboiled BLUE PATNA 500 g,48.0,7730114000513,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,12.0,geant,devoto,Arroz arborio RISO INVERNI 1 kg,434.0,8001420001624,geant,Arroz arborio RISO INVERNI 1 kg,422.0,8001420001624
+1.0,60.0,geant,devoto,Arroz patna green CHEF 5 kg,289.0,,geant,Arroz patna green CHEF 5 kg,229.0,
+1.0,0.0,geant,devoto,Arroz carnaroli CURTIRISO,375.0,8017759011708,geant,Arroz carnaroli CURTIRISO,375.0,8017759011708
+1.0,0.0,geant,devoto,Arroz arborio Risotto CURTIRISO,375.0,8017759011104,geant,Arroz arborio Risotto CURTIRISO,375.0,8017759011104
+1.0,0.0,geant,devoto,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016,geant,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,15.0,geant,devoto,Arroz primavera MONTE CUDINE 115 g,45.0,7730177004695,geant,Arroz primavera MONTE CUDINE 115 g,30.0,7730177004695
+1.0,223.0,devoto,devoto,Arroz parboiled BLUE PATNA 1 kg,86.0,7730114000155,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,4.0,geant,devoto,Arroz con espárragos MONTE CUDINE 200 g,93.0,7730177003773,geant,Arroz con espárragos MONTE CUDINE 200 g,89.0,7730177003773
+1.0,0.0,geant,devoto,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021,geant,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,geant,devoto,Arroz blanco SAMAN 5 kg,309.0,7730115000352,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,4.0,geant,devoto,Arroz con hongos MONTE CUDINE 200 g,93.0,7730177003780,geant,Arroz con hongos MONTE CUDINE 200 g,89.0,7730177003780
+1.0,0.0,geant,devoto,Arroz corto panoja 1 kg,119.0,7730946220066,geant,Arroz corto panoja 1 kg,119.0,7730946220066
+1.0,0.0,geant,devoto,Arroz SHIVA 5 kg,199.0, 7730114000551,geant,Arroz SHIVA 5 kg,199.0, 7730114000551
+1.0,15.0,geant,devoto,Arroz saborizado MONTE CUDINE a la española 115 g,45.0, 7730177004688,geant,Arroz saborizado MONTE CUDINE a la española 115 g,30.0, 7730177004688
+1.0,17.0,geant,devoto,Arroz arborio RISO INVERNI 500 g,296.0,8001420002140,geant,Arroz arborio RISO INVERNI 500 g,279.0,8001420002140
+1.0,1.0,devoto,devoto,Arroz parboiled SAMAN 1 kg,84.0,7730115030106,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+1.0,2.0,geant,devoto,Arroz patna BLUE PATNA 2 kg,149.0, 7730114000124,geant,Arroz patna BLUE PATNA 2 kg,147.0, 7730114000124
+1.0,1.0,geant,devoto,Arroz a la española BLUE PATNA 200g,95.0,7730114000384,geant,Arroz a la española BLUE PATNA 200g,94.0,7730114000384
+1.0,1.0,geant,devoto,Arroz milanés BLUE PATNA 200g,95.0,7730114000445,geant,Arroz milanés BLUE PATNA 200g,94.0,7730114000445
+1.0,1.0,geant,devoto,Arroz paella BLUE PATNA 200g,95.0,7730114000452,geant,Arroz paella BLUE PATNA 200g,94.0,7730114000452
+1.0,1.0,geant,devoto,Arroz primavera BLUE PATNA 200g,95.0,7730114000469,geant,Arroz primavera BLUE PATNA 200g,94.0,7730114000469
+1.0,264.0,devoto,devoto,Arroz Blanco SAMAN 500 g,45.0, 7730115000239,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,4.0,geant,devoto,Arroz con queso MONTE CUDINE 200 g,93.0,7730177003803,geant,Arroz con queso MONTE CUDINE 200 g,89.0,7730177003803
+1.0,0.0,geant,devoto,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101,geant,Arroz doble carolina SAMAN 1 kg,140.0,7730115150101
+1.0,78.0,devoto,devoto,Arroz blanco SAMAN 1 kg,74.0,7730115040105,geant,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,0.0,geant,devoto,Arroz patna GREEN CHEF 500g,25.0,7730114000292,geant,Arroz patna GREEN CHEF 500g,25.0,7730114000292
+1.0,104.0,geant,devoto,Arroz patna BLUE PATNA 5 kg,333.0, 7730114000148,geant,Arroz patna BLUE PATNA 5 kg,229.0, 7730114000148
+1.0,1.0,geant,devoto,Arroz con hongos BLUE PATNA 200g,95.0,7730114000421,geant,Arroz con hongos BLUE PATNA 200g,94.0,7730114000421
+1.0,15.0,geant,devoto,Arroz con espárragos MONTE CUDINE 115 g,45.0,7730177004701,geant,Arroz con espárragos MONTE CUDINE 115 g,30.0,7730177004701
+1.0,4.0,geant,devoto,Arroz paella MONTE CUDINE 200 g,93.0,7730177003797,geant,Arroz paella MONTE CUDINE 200 g,89.0,7730177003797
+1.0,4.0,geant,devoto,Arroz Bomba COOPAR 400g,200.0,7730114000506,geant,Arroz Bomba COOPAR 400g,196.0,7730114000506
+1.0,3.0,geant,devoto,Arroz orgánico integral CAMPOCLARO 1 kg,181.0,7730465004147,geant,Arroz orgánico integral CAMPOCLARO 1 kg,178.0,7730465004147
+1.0,0.0,geant,devoto,Arroz PALADAR 500 g,42.0, 7730934130469,geant,Arroz PALADAR 500 g,42.0, 7730934130469
+1.0,0.0,geant,devoto,Arroz patna ARUBA 1 kg,45.0, 7730115170109,geant,Arroz patna ARUBA 1 kg,45.0, 7730115170109
+1.0,9.0,geant,devoto,Arroz VIDARROZ 1 kg,54.0,7730114000728,geant,Arroz VIDARROZ 1 kg,45.0,7730114000728
+1.0,4.0,geant,devoto,Arroz a la española MONTE CUDINE 200 g,93.0,7730177003766,geant,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766
+1.0,22.0,geant,devoto,Arroz carnaroli RISO INVERNI 1 kg,534.0,8001420001938,geant,Arroz carnaroli RISO INVERNI 1 kg,512.0,8001420001938
+1.0,0.0,geant,devoto,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215,geant,Arroz don ruggero SAMAN 1 kg,186.0,7730115000215
+1.0,20.0,geant,devoto,Arroz integral COOPAR 400 g,45.0,7730114000483,geant,Arroz integral COOPAR 400 g,25.0,7730114000483
+1.0,0.0,geant,devoto,Arroz Integral SAMAN 1 kg,95.0,7730115050104,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,1.0,geant,devoto,Arroz 4 quesos BLUE PATNA 200g,95.0,7730114000407,geant,Arroz 4 quesos BLUE PATNA 200g,94.0,7730114000407
+1.0,0.0,geant,devoto,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880,geant,Arroz Parboiled PRECIO LÍDER 1 kg,78.0,7730593004880
+1.0,0.0,geant,devoto,Arroz medio grano PRECIO LÍDER,51.0,7730593004873,geant,Arroz medio grano PRECIO LÍDER,51.0,7730593004873
+1.0,0.0,geant,devoto,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070,geant,Arroz integral orgánico cocido CAMPOCLARO 250 g,164.0,7730465007070
+1.0,0.0,geant,devoto,Arroz patna SAMAN 1 kg,55.0,,geant,Arroz patna SAMAN 1 kg,55.0,
+1.0,24.0,geant,devoto,Arroz integral panoja 1 kg,119.0,7730946220097,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,0.0,geant,devoto,Arroz kansushi SAMAN 1kg,133.0,7730115000253,geant,Arroz kansushi SAMAN 1kg,133.0,7730115000253
+1.0,0.0,geant,devoto,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897,geant,Arroz Patna PRECIO LÍDER 1 kg,68.0,7730593004897
+1.0,48.0,geant,devoto,Arroz integral MIROKUMAI 1 kg,143.0,7730900890038,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,24.0,geant,devoto,Arroz Parboiled SAMAN 500 g,49.0,,geant,Arroz parboiled BLUE PATNA 500 g,25.0,7730114000513
+1.0,20.0,geant,devoto,Arroz patna BLUE PATNA 500 g,45.0,7730114000131,geant,Arroz patna BLUE PATNA 500 g,25.0,7730114000131
+1.0,3.0,geant,devoto,Arroz orgánico CAMPOCLARO 1 kg,181.0,7730465003126,geant,Arroz orgánico CAMPOCLARO 1 kg,178.0,7730465003126
+1.0,0.0,geant,devoto,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103,geant,Arroz urumati SAMAN Aromatic Rice 1 kg,140.0,7730115130103
+1.0,0.0,geant,devoto,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117,geant,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,80.0,tata,tata,Arroz Blanco Saman 1 Kg,72.0,,geant,Arroz blanco MIROKUMAI 1 kg,152.0,7730900890021
+1.0,8.0,tata,tata,Arroz Patna Green Chef Bolsa 1 Kg,61.0,,geant,Arroz patna GREEN CHEF 1 kg,69.0,7730114400016
+1.0,30.0,tata,tata,Arroz Parboiled Ta-Ta 1 Kg,55.0,,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+0.975,20.0,geant,tata,Arroz Green Chef 5 Kg,249.0,,geant,Arroz patna green CHEF 5 kg,229.0,
+1.0,1.0,tata,tata,Arroz Parboiled Saman 1 Kg,84.0,,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+1.0,5.0,tata,tata,Arroz Patna Saman 1 Kg,50.0,,geant,Arroz patna SAMAN 1 kg,55.0,
+1.0,18.0,geant,tata,Arroz Blue Patna Bolsa 1 Kg,77.0,,geant,Arroz patna BLUE PATNA 1 kg,59.0,7730114000117
+1.0,18.0,geant,tata,Arroz Integral Saman 1 Kg,113.0,,geant,Arroz Integral SAMAN 1 kg,95.0,7730115050104
+1.0,36.0,geant,tata,ARROZ BLANCO SAMAN 5 KG,345.0,,geant,Arroz blanco SAMAN 5 kg,309.0,7730115000352
+1.0,23.0,tata,tata,Arroz Blanco Ta-Ta 1 Kg,51.0,,geant,Arroz blanco SAMAN 1 kg,74.0,7730115040105
+1.0,1.0,tata,tata,Arroz Patna Aruba 1 Kg,44.0,,geant,Arroz patna ARUBA 1 kg,45.0, 7730115170109
+1.0,264.0,tata,tata,ARROZ PARBOILED BLUE PATNA 500 G,45.0,,geant,Arroz parboiled BLUE PATNA 5 kg,309.0,7730114000575
+1.0,18.0,tata,tata,Arroz Parboiled Blue Patna Bolsa 1 Kg,67.0,,geant,Arroz parboiled BLUE PATNA 1 kg,85.0,7730114000155
+1.0,1.0,geant,tata,Arroz Saborizado A La Española Monte Cudine 200 G,90.0,,geant,Arroz a la española MONTE CUDINE 200 g,89.0,7730177003766
+1.0,20.0,geant,tata,Arroz Blue Patna 500 G,45.0,,geant,Arroz patna BLUE PATNA 500 g,25.0,7730114000131
+0.8085106382978723,65.0,geant,tata,Arroz Saborizado Monte Cudine Con Queso 190 G,95.0,,geant,Arroz saborizado MONTE CUDINE a la española 115 g,30.0, 7730177004688
+1.0,10.0,tata,tata,Arroz Saborizado 4 Quesos Blue Patna 200 G,84.0,,geant,Arroz 4 quesos BLUE PATNA 200g,94.0,7730114000407
+1.0,7.0,geant,tata,Arroz Patna Blue Patna 2 Kg,154.0,,geant,Arroz patna BLUE PATNA 2 kg,147.0, 7730114000124

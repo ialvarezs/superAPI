@@ -1,0 +1,386 @@
+{
+  "generated_at": "2026-03-05T02:04:17.988907",
+  "summary": {
+    "total_products": 222,
+    "total_matches": 362,
+    "supermarkets": [
+      "tienda_inglesa",
+      "disco",
+      "devoto",
+      "tata",
+      "geant"
+    ],
+    "products_by_store": {
+      "tienda_inglesa": 20,
+      "disco": 63,
+      "devoto": 58,
+      "tata": 18,
+      "geant": 63
+    }
+  },
+  "database_stats": {
+    "total_products": 222,
+    "products_by_store": {
+      "devoto": 58,
+      "disco": 63,
+      "geant": 63,
+      "tata": 18,
+      "tienda_inglesa": 20
+    },
+    "total_matches": 362,
+    "average_prices": {
+      "devoto": 136.81034482758622,
+      "disco": 132.74603174603175,
+      "geant": 127.44444444444444,
+      "tata": 98.94444444444444,
+      "tienda_inglesa": 100.4
+    },
+    "products_with_barcodes": 194
+  },
+  "top_matches": [
+    {
+      "product_1_name": "Arroz BLUE PATNA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 56.0,
+      "product_2_name": "Arroz patna BLUE PATNA 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 59.0,
+      "similarity": 1.0,
+      "price_diff": 3.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 60.0,
+      "product_2_name": "Arroz parboiled BLUE PATNA 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 86.0,
+      "similarity": 1.0,
+      "price_diff": 26.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz SAMAN Urumati 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 120.0,
+      "product_2_name": "Arroz urumati SAMAN Aromatic Rice 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 140.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Green CHEF 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 49.0,
+      "product_2_name": "Arroz patna GREEN CHEF 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 69.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 82.0,
+      "product_2_name": "Arroz Integral SAMAN 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 95.0,
+      "similarity": 1.0,
+      "price_diff": 13.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz SAMAN Don Ruggero Carnaroli 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 160.0,
+      "product_2_name": "Arroz don ruggero SAMAN 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 186.0,
+      "similarity": 1.0,
+      "price_diff": 26.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz BLUE PATNA 2 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 109.0,
+      "product_2_name": "Arroz patna BLUE PATNA 2 kg",
+      "product_2_store": "disco",
+      "product_2_price": 149.0,
+      "similarity": 1.0,
+      "price_diff": 40.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz SAMAN Doble Carolina 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 120.0,
+      "product_2_name": "Arroz doble carolina SAMAN 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 140.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral CAMPOCLARO Orgánico 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 136.0,
+      "product_2_name": "Arroz orgánico integral CAMPOCLARO 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 181.0,
+      "similarity": 1.0,
+      "price_diff": 45.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz CAMPOCLARO Orgánico 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 136.0,
+      "product_2_name": "Arroz orgánico CAMPOCLARO 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 181.0,
+      "similarity": 1.0,
+      "price_diff": 45.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral MIROKUMAI 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 114.0,
+      "product_2_name": "Arroz Integral SAMAN 1 kg",
+      "product_2_store": "disco",
+      "product_2_price": 95.0,
+      "similarity": 1.0,
+      "price_diff": 19.0,
+      "cheaper_store": "disco"
+    },
+    {
+      "product_1_name": "Arroz 4 Quesos BLUE PATNA 200 g",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 71.0,
+      "product_2_name": "Arroz 4 quesos BLUE PATNA 200g",
+      "product_2_store": "disco",
+      "product_2_price": 95.0,
+      "similarity": 1.0,
+      "price_diff": 24.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz a la Española MONTE CUDINE 200 g",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 69.0,
+      "product_2_name": "Arroz a la española MONTE CUDINE 200 g",
+      "product_2_store": "disco",
+      "product_2_price": 89.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled BLUE PATNA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 65.0,
+      "product_2_name": "Arroz parboiled BLUE PATNA 5 kg",
+      "product_2_store": "disco",
+      "product_2_price": 309.0,
+      "similarity": 1.0,
+      "price_diff": 244.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz a la Española BLUE PATNA 200 g",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 71.0,
+      "product_2_name": "Arroz a la española BLUE PATNA 200g",
+      "product_2_store": "disco",
+      "product_2_price": 95.0,
+      "similarity": 1.0,
+      "price_diff": 24.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz BLUE PATNA 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 56.0,
+      "product_2_name": "Arroz patna BLUE PATNA 1 kg",
+      "product_2_store": "devoto",
+      "product_2_price": 59.0,
+      "similarity": 1.0,
+      "price_diff": 3.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Parboiled SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 60.0,
+      "product_2_name": "Arroz parboiled BLUE PATNA 1 kg",
+      "product_2_store": "devoto",
+      "product_2_price": 86.0,
+      "similarity": 1.0,
+      "price_diff": 26.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz SAMAN Urumati 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 120.0,
+      "product_2_name": "Arroz urumati SAMAN Aromatic Rice 1 kg",
+      "product_2_store": "devoto",
+      "product_2_price": 140.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Green CHEF 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 49.0,
+      "product_2_name": "Arroz patna GREEN CHEF 1 kg",
+      "product_2_store": "devoto",
+      "product_2_price": 69.0,
+      "similarity": 1.0,
+      "price_diff": 20.0,
+      "cheaper_store": "tienda_inglesa"
+    },
+    {
+      "product_1_name": "Arroz Integral SAMAN 1 Kg",
+      "product_1_store": "tienda_inglesa",
+      "product_1_price": 82.0,
+      "product_2_name": "Arroz Integral SAMAN 1 kg",
+      "product_2_store": "devoto",
+      "product_2_price": 95.0,
+      "similarity": 1.0,
+      "price_diff": 13.0,
+      "cheaper_store": "tienda_inglesa"
+    }
+  ],
+  "best_deals": [
+    {
+      "product_name": "Arroz arborio RISO INVERNI 1 kg",
+      "expensive_store": "disco",
+      "expensive_price": 434.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 84,
+      "savings": 350.0,
+      "savings_percent": 80.64516129032258
+    },
+    {
+      "product_name": "Arroz arborio RISO INVERNI 1 kg",
+      "expensive_store": "devoto",
+      "expensive_price": 434.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 84,
+      "savings": 350.0,
+      "savings_percent": 80.64516129032258
+    },
+    {
+      "product_name": "Arroz Blanco SAMAN 500 g",
+      "expensive_store": "tata",
+      "expensive_price": 345,
+      "cheaper_store": "disco",
+      "cheaper_price": 45.0,
+      "savings": 300.0,
+      "savings_percent": 86.95652173913044
+    },
+    {
+      "product_name": "Arroz Blanco SAMAN 500 g",
+      "expensive_store": "tata",
+      "expensive_price": 345,
+      "cheaper_store": "devoto",
+      "cheaper_price": 45.0,
+      "savings": 300.0,
+      "savings_percent": 86.95652173913044
+    },
+    {
+      "product_name": "Arroz Blanco SAMAN 500 g",
+      "expensive_store": "devoto",
+      "expensive_price": 309.0,
+      "cheaper_store": "disco",
+      "cheaper_price": 45.0,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    },
+    {
+      "product_name": "Arroz parboiled BLUE PATNA 5 kg",
+      "expensive_store": "disco",
+      "expensive_price": 309.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 45,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    },
+    {
+      "product_name": "Arroz Blanco SAMAN 500 g",
+      "expensive_store": "geant",
+      "expensive_price": 309.0,
+      "cheaper_store": "disco",
+      "cheaper_price": 45.0,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    },
+    {
+      "product_name": "Arroz parboiled BLUE PATNA 5 kg",
+      "expensive_store": "devoto",
+      "expensive_price": 309.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 45,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    },
+    {
+      "product_name": "Arroz Blanco SAMAN 500 g",
+      "expensive_store": "geant",
+      "expensive_price": 309.0,
+      "cheaper_store": "devoto",
+      "cheaper_price": 45.0,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    },
+    {
+      "product_name": "ARROZ PARBOILED BLUE PATNA 500 G",
+      "expensive_store": "geant",
+      "expensive_price": 309.0,
+      "cheaper_store": "tata",
+      "cheaper_price": 45,
+      "savings": 264.0,
+      "savings_percent": 85.43689320388349
+    }
+  ],
+  "price_statistics": {
+    "tienda_inglesa": {
+      "avg_price": 100.4,
+      "min_price": 49.0,
+      "max_price": 239.0,
+      "total_products_with_price": 20
+    },
+    "disco": {
+      "avg_price": 132.74603174603175,
+      "min_price": 25.0,
+      "max_price": 534.0,
+      "total_products_with_price": 63
+    },
+    "devoto": {
+      "avg_price": 136.81034482758622,
+      "min_price": 25.0,
+      "max_price": 534.0,
+      "total_products_with_price": 58
+    },
+    "tata": {
+      "avg_price": 98.94444444444444,
+      "min_price": 44,
+      "max_price": 345,
+      "total_products_with_price": 18
+    },
+    "geant": {
+      "avg_price": 127.44444444444444,
+      "min_price": 25.0,
+      "max_price": 512.0,
+      "total_products_with_price": 63
+    }
+  }
+}

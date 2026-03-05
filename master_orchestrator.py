@@ -81,6 +81,8 @@ class MasterOrchestrator:
                         category_url=config['arroz_url'],
                         headers=config['headers']
                     )
+                    # Limit to 20 products for testing with anti-blocking
+                    products = scraper.scrape_category(max_products=20)
                 elif store_key == 'tata':
                     # Tata uses proper category URL
                     scraper = PlaywrightScraper(
@@ -88,6 +90,7 @@ class MasterOrchestrator:
                         base_url=config['base_url'],
                         category_url=config['arroz_url']
                     )
+                    products = scraper.scrape_category()
                 else:
                     # Disco, Devoto, Geant - use category pages with Playwright
                     scraper = PlaywrightScraper(
@@ -95,8 +98,11 @@ class MasterOrchestrator:
                         base_url=config['base_url'],
                         category_url=config['arroz_url']
                     )
+                    products = scraper.scrape_category()
                 
-                products = scraper.scrape_category()
+                if store_key != 'tienda_inglesa':
+                    products = scraper.scrape_category()
+                
                 self.products_by_store[store_key] = products
                 
                 logger.info(f"✓ {config['name']}: {len(products)} products scraped")
