@@ -11,25 +11,50 @@ SUPERMARKETS = {
     'tienda_inglesa': {
         'name': 'Tienda Inglesa',
         'base_url': 'https://www.tiendainglesa.com.uy',
-        'lacteos_url': 'https://www.tiendainglesa.com.uy/Institucional/Buscar?categoria=lacteos',
+        'arroz_url': 'https://www.tiendainglesa.com.uy/Institucional/Buscar?categoria=arroz',
+        'category': 'arroz',
         'headers': {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
     },
     'disco': {
         'name': 'Disco',
         'base_url': 'https://www.disco.com.uy',
-        'lacteos_url': 'https://www.disco.com.uy/supermercado/lacteos',
+        'arroz_url': 'https://www.disco.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'category': 'arroz',
+        'platform': 'vtex',
         'headers': {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
     },
     'devoto': {
         'name': 'Devoto',
         'base_url': 'https://www.devoto.com.uy',
-        'lacteos_url': 'https://www.devoto.com.uy/supermercado/lacteos',
+        'arroz_url': 'https://www.devoto.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'category': 'arroz',
+        'platform': 'vtex',
         'headers': {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+    },
+    'tata': {
+        'name': 'Tata',
+        'base_url': 'https://www.tata.com.uy',
+        'arroz_url': 'https://www.tata.com.uy/almacen/arroz-harina-y-legumbres/arroz/',
+        'category': 'arroz',
+        'platform': 'vtex',
+        'headers': {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        }
+    },
+    'geant': {
+        'name': 'Geant',
+        'base_url': 'https://www.geant.com.uy',
+        'arroz_url': 'https://www.geant.com.uy/almacen/arroz-harina-y-legumbres/arroz',
+        'category': 'arroz',
+        'platform': 'vtex',
+        'headers': {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
     }
 }

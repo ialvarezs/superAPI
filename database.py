@@ -25,15 +25,23 @@ class ProductDatabase:
                     supermarket TEXT NOT NULL,
                     name TEXT NOT NULL,
                     price REAL,
-                    original_price TEXT,
+                    original_price REAL,
                     brand TEXT,
                     barcode TEXT,
-                    category TEXT DEFAULT 'lacteos',
+                    ean TEXT,
+                    gtin TEXT,
+                    sku TEXT,
+                    category TEXT DEFAULT 'arroz',
+                    subcategory TEXT,
                     image_url TEXT,
                     product_url TEXT,
                     description TEXT,
+                    unit TEXT,
+                    quantity TEXT,
+                    in_stock BOOLEAN DEFAULT TRUE,
                     scraped_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    UNIQUE(supermarket, name, barcode)
+                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                    UNIQUE(supermarket, sku)
                 )
             """)
 
@@ -91,9 +99,10 @@ class ProductDatabase:
                 try:
                     cursor.execute("""
                         INSERT OR REPLACE INTO products
-                        (supermarket, name, price, original_price, brand, barcode,
-                         image_url, product_url, description)
-                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                        (supermarket, name, price, original_price, brand, barcode, ean, gtin, sku,
+                         category, subcategory, image_url, product_url, description, unit, quantity, 
+                         in_stock, updated_at)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                     """, (
                         product.get('supermarket', supermarket),
                         product.get('name'),
@@ -101,9 +110,17 @@ class ProductDatabase:
                         product.get('original_price'),
                         product.get('brand'),
                         product.get('barcode'),
+                        product.get('ean'),
+                        product.get('gtin'),
+                        product.get('sku'),
+                        product.get('category', 'arroz'),
+                        product.get('subcategory'),
                         product.get('image_url'),
                         product.get('url'),
-                        product.get('description')
+                        product.get('description'),
+                        product.get('unit'),
+                        product.get('quantity'),
+                        product.get('in_stock', True)
                     ))
                     inserted_count += 1
 
