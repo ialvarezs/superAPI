@@ -100,40 +100,68 @@ class PlaywrightScraper:
             page.goto(url, wait_until='domcontentloaded', timeout=30000)
             time.sleep(2)  # Let JS execute
             
-            # Extract pageData from window object
-            page_data = page.evaluate("() => window.pageData")
-            
-            if page_data:
-                product_data = page_data.get('result', {}).get('serverData', {}).get('product', {})
-                if product_data:
-                    product = self._parse_product_data(product_data, url)
-                    # Filter: ensure it's actually arroz
-                    if product and self._is_arroz_product(product):
-                        return product
-            
-            # Fallback: parse from DOM
-            product = page.evaluate("""
+            # Extract all possible data including meta keywords
+            product_data = page.evaluate("""
                 () => {
+                    // Get pageData
+                    const pageData = window.pageData?.result?.serverData?.product;
+                    
+                    // Get meta keywords (contains EAN for Disco/Devoto/Geant)
+                    const metaKeywords = document.querySelector('meta[name="keywords"]')?.content || '';
+                    
+                    // Extract EAN from keywords (last number is usually EAN)
+                    const keywordParts = metaKeywords.split(',');
+                    const eanFromMeta = keywordParts.find(k => /^\d{13}$/.test(k.trim()));
+                    
+                    // Get from DOM
                     const name = document.querySelector('h1')?.textContent?.trim();
                     const priceEl = document.querySelector('[data-price], .price, [class*="price"]');
-                    const price = priceEl?.textContent?.match(/[\\d,\\.]+/)?.[0];
+                    const priceText = priceEl?.textContent?.trim();
                     const brand = document.querySelector('[data-brand], .brand')?.textContent?.trim();
                     const img = document.querySelector('img[src*="vtexassets"], img[src*="vteximg"]')?.src;
                     
-                    return { name, price, brand, img };
+                    return {
+                        pageData: pageData,
+                        metaKeywords: metaKeywords,
+                        eanFromMeta: eanFromMeta,
+                        name: name,
+                        priceText: priceText,
+                        brand: brand,
+                        img: img
+                    };
                 }
             """)
             
-            if product.get('name') and self._is_arroz_product(product):
-                return {
+            # Parse pageData if available
+            if product_data.get('pageData'):
+                product = self._parse_product_data(product_data['pageData'], url)
+            else:
+                # Manual parsing
+                product = {
                     'supermarket': self.supermarket,
-                    'name': product['name'],
-                    'price': float(product['price'].replace(',', '.')) if product.get('price') else None,
-                    'brand': product.get('brand'),
-                    'image_url': product.get('img'),
+                    'name': product_data.get('name'),
+                    'brand': product_data.get('brand'),
                     'url': url,
-                    'category': 'arroz'
+                    'category': 'arroz',
+                    'image_url': product_data.get('img')
                 }
+                
+                # Parse price
+                price_text = product_data.get('priceText', '')
+                if price_text:
+                    price_match = re.search(r'[\d,\.]+', price_text.replace('.', '').replace(',', '.'))
+                    if price_match:
+                        product['price'] = float(price_match.group())
+            
+            # Add EAN from meta keywords (most reliable for Disco/Devoto/Geant)
+            if product and product_data.get('eanFromMeta'):
+                product['ean'] = product_data['eanFromMeta']
+                product['barcode'] = product_data['eanFromMeta']
+                logger.info(f"Found EAN from meta: {product['ean']}")
+            
+            # Filter: ensure it's actually arroz
+            if product and self._is_arroz_product(product):
+                return product
                 
         except Exception as e:
             logger.debug(f"Error scraping product page: {e}")

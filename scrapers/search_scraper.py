@@ -24,6 +24,7 @@ class SearchBasedScraper:
         logger.info(f"Starting search-based scrape for {self.supermarket}: {self.search_url}")
         
         products = []
+        product_urls = []
         
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
@@ -42,69 +43,34 @@ class SearchBasedScraper:
                     page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                     time.sleep(1)
                 
-                # Extract products from page
-                products_data = page.evaluate("""
+                # Extract product URLs
+                product_urls = page.evaluate("""
                     () => {
-                        const products = [];
-                        
-                        // Try multiple selectors
-                        const selectors = [
-                            '[data-testid*="product-card"]',
-                            '[class*="productCard"]',
-                            '[class*="product-card"]',
-                            '[class*="ProductCard"]',
-                            'article',
-                            '[data-product-id]'
-                        ];
-                        
-                        let elements = [];
-                        for (const selector of selectors) {
-                            elements = document.querySelectorAll(selector);
-                            if (elements.length > 0) break;
-                        }
-                        
-                        elements.forEach(el => {
-                            try {
-                                // Extract product data
-                                const nameEl = el.querySelector('h2, h3, [class*="name"], [class*="Name"], [class*="title"]');
-                                const priceEl = el.querySelector('[class*="price"], [class*="Price"], [data-price]');
-                                const linkEl = el.querySelector('a[href]');
-                                const imgEl = el.querySelector('img');
-                                const brandEl = el.querySelector('[class*="brand"], [class*="Brand"]');
-                                
-                                const name = nameEl?.textContent?.trim();
-                                const price = priceEl?.textContent?.trim();
-                                const link = linkEl?.href;
-                                const img = imgEl?.src;
-                                const brand = brandEl?.textContent?.trim();
-                                
-                                if (name && link) {
-                                    products.push({
-                                        name: name,
-                                        price: price,
-                                        url: link,
-                                        image_url: img,
-                                        brand: brand
-                                    });
-                                }
-                            } catch (e) {
-                                // Skip errors
+                        const urls = new Set();
+                        document.querySelectorAll('a[href*="/product/"]').forEach(a => {
+                            const href = a.href;
+                            const text = a.textContent.toLowerCase();
+                            if (text.includes('arroz') || href.toLowerCase().includes('arroz')) {
+                                urls.add(href);
                             }
                         });
-                        
-                        return products;
+                        return Array.from(urls);
                     }
                 """)
                 
-                logger.info(f"Extracted {len(products_data)} products from DOM")
+                logger.info(f"Found {len(product_urls)} product URLs")
                 
-                # Parse and filter products
-                for p_data in products_data:
-                    product = self._parse_product(p_data)
-                    if product and self._is_arroz_product(product):
-                        products.append(product)
-                        if len(products) >= max_products:
-                            break
+                # Visit each product page to get detailed data including EAN
+                for i, url in enumerate(product_urls[:max_products], 1):
+                    try:
+                        logger.info(f"Scraping product {i}/{min(len(product_urls), max_products)}")
+                        product = self._scrape_product_detail(page, url)
+                        if product:
+                            products.append(product)
+                        time.sleep(1.5)
+                    except Exception as e:
+                        logger.error(f"Error scraping {url}: {e}")
+                        continue
                 
             except Exception as e:
                 logger.error(f"Error scraping {self.supermarket}: {e}")
@@ -113,6 +79,93 @@ class SearchBasedScraper:
         
         logger.info(f"Scraped {len(products)} arroz products from {self.supermarket}")
         return products
+    
+    def _scrape_product_detail(self, page, url: str) -> Optional[Dict]:
+        """Scrape detailed product page including EAN from meta"""
+        try:
+            page.goto(url, wait_until='domcontentloaded', timeout=30000)
+            time.sleep(2)
+            
+            # Extract comprehensive data
+            product_data = page.evaluate("""
+                () => {
+                    // Get meta keywords (contains EAN!)
+                    const metaKeywords = document.querySelector('meta[name="keywords"]')?.content || '';
+                    const keywordParts = metaKeywords.split(',').map(k => k.trim());
+                    
+                    // Find EAN (13-digit number in keywords)
+                    const eanFromMeta = keywordParts.find(k => /^\d{13}$/.test(k));
+                    
+                    // Get product info
+                    const name = document.querySelector('h1, [class*="productName"]')?.textContent?.trim();
+                    const priceEl = document.querySelector('[class*="price"], [data-testid*="price"]');
+                    const priceText = priceEl?.textContent?.trim();
+                    const brand = document.querySelector('[class*="brand"]')?.textContent?.trim();
+                    const img = document.querySelector('img[src*="vtex"]')?.src;
+                    
+                    // Get SKU from URL
+                    const sku = window.location.pathname.match(/\/(\d+)$/)?.[1];
+                    
+                    return {
+                        name, priceText, brand, img, eanFromMeta, sku, metaKeywords
+                    };
+                }
+            """)
+            
+            if not product_data.get('name'):
+                return None
+            
+            name = product_data['name']
+            
+            # Must be arroz
+            if not self._is_arroz_product({'name': name}):
+                return None
+            
+            # Parse price
+            price = None
+            price_text = product_data.get('priceText', '')
+            if price_text:
+                price_match = re.search(r'[\d,\.]+', price_text.replace('.', '').replace(',', '.'))
+                if price_match:
+                    try:
+                        price = float(price_match.group())
+                    except:
+                        pass
+            
+            # Extract brand from name if not found
+            brand = product_data.get('brand')
+            if not brand:
+                brand_patterns = [
+                    r'\b(Saman|Blue\s*Patna|Arrozur|Carolina|Uncle\s*Bens?|Green\s*Chef|Aruba|Ta-Ta|Monte\s*Cudine)\b'
+                ]
+                for pattern in brand_patterns:
+                    match = re.search(pattern, name, re.I)
+                    if match:
+                        brand = match.group(1)
+                        break
+            
+            product = {
+                'supermarket': self.supermarket,
+                'name': name,
+                'price': price,
+                'brand': brand,
+                'ean': product_data.get('eanFromMeta'),
+                'barcode': product_data.get('eanFromMeta'),
+                'sku': product_data.get('sku'),
+                'category': 'arroz',
+                'url': url,
+                'image_url': product_data.get('img')
+            }
+            
+            if product.get('ean'):
+                logger.info(f"✓ Found EAN: {product['ean']} for {name[:40]}")
+            
+            return product
+                
+        except Exception as e:
+            logger.debug(f"Error scraping product detail: {e}")
+        
+        return None
     
     def _parse_product(self, data: Dict) -> Optional[Dict]:
         """Parse product data"""
